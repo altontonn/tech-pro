@@ -4,10 +4,6 @@
     background-color: rgba($color-white, .3);
     top: 15%;
     border-radius: 10px;
-    
-    @include respond(tab-port){
-        visibility: hidden;
-    }
 
     &__checkbox{
         display: none;
@@ -51,13 +47,15 @@
     &__nav{
 
         @include respond(tab-port) {
+            //height: 100vh;
+            width: 100vw;
             height: 100vh;
-            width: 0;
             position: fixed;
             z-index: 20000000;
             top: 0;
             left: 0;
             opacity: 0;
+            //visibility: hidden;
             transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
     }
@@ -89,8 +87,7 @@
         @include respond(tab-port){
             &:link,
             &:visited{
-                //display: inline-block;
-                float: left;
+                display: block;
                 font-size: 2.5rem;
                 font-weight: 300;
                 padding: 1rem 2rem;

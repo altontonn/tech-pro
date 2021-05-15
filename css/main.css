@@ -284,9 +284,6 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
   top: 15%;
   border-radius: 10px; }
-  @media (max-width: 56.25em) {
-    .navigation {
-      visibility: hidden; } }
   .navigation__checkbox {
     display: none; }
   .navigation__button {
@@ -318,8 +315,8 @@ body {
       transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1); } }
   @media (max-width: 56.25em) {
     .navigation__nav {
+      width: 100vw;
       height: 100vh;
-      width: 0;
       position: fixed;
       z-index: 20000000;
       top: 0;
@@ -348,7 +345,7 @@ body {
     padding: 2rem; }
     @media (max-width: 56.25em) {
       .navigation__link:link, .navigation__link:visited {
-        float: left;
+        display: block;
         font-size: 2.5rem;
         font-weight: 300;
         padding: 1rem 2rem;
