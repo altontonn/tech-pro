@@ -1,0 +1,19 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animation";
+@import "base/base";
+
+@import "components/box";
+@import "components/buttons";
+@import "components/contact";
+@import "components/info";
+@import "components/popup";
+@import "components/nav";
+@import "components/school";
+@import "components/side";
+@import "components/work";
+
+@import "layouts/grid"; 
+@import "layouts/footer";
+@import "layouts/section";

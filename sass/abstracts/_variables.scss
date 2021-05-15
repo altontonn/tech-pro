@@ -1,0 +1,29 @@
+//colors
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #10cfffce;
+$color-primary-light: #10cfff;
+$color-grey: #4E4E50;
+$color-grey-1: #999;
+$background-color: rgba($color-white, .3);
+$color-green: #55c57a;
+
+$color-secondary: #ffb900;
+$color-secondary-1: #ff7730;
+
+
+.text-center {text-align: center;}
+.u-margin-bm-sm {margin-bottom: 2rem;}
+.u-margin-bm-bg {margin-bottom: 10rem;}
+.u-margin-bm-md {margin-bottom: 5rem;}
+
+.margin-top-sm {margin-top: 2rem;}
+.margin-top-bg {margin-top: 10rem;}
+.margin-top-md {margin-top: 5rem;}
+
+$trans-all: all 2s;
+
+//grid
+$grid-width: 100%;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;

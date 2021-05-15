@@ -1,0 +1,29 @@
+.box{
+    background-color: rgba($color-white, .3);
+    text-align: center;
+    position: relative; 
+    padding: 2rem;
+    border-radius: 5px;
+
+    @include respond(phone){
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    &--header{
+        padding: 2rem 0 3rem 0;
+    }
+    &--icon{
+        font-size: 5rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -3.5rem;
+        width: 8rem;
+        height: 8rem;
+        background-color: rgba($color-primary-light, .6);
+        border-radius: 50%;
+        line-height: 8rem;
+    }
+}

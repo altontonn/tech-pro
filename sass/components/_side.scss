@@ -1,0 +1,36 @@
+.side{ 
+    width: 100%;
+
+     &__call{
+         color: $color-white;
+     }
+}
+.side__icon{
+    color: $color-white; 
+    position: relative;
+    font-size: 5rem;
+    padding: 0 0 8rem 2rem;
+    top: 2.7rem;
+    margin-bottom: 4rem;
+    
+
+    &::after{
+        content: "";
+        position: absolute;
+        background: $color-primary;
+        width: 10rem;
+        height: 10rem;
+        left: -.4rem;
+        top: -2.2rem;
+        z-index: -44;
+    }
+}
+.side__icon h4{
+        display: inline-block;
+        position: absolute;
+        padding-left: 4rem;
+        font-weight: 700;
+        top: 1rem;
+        white-space: nowrap;
+        font-size: 1.7rem;
+}
