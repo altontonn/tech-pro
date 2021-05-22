@@ -1,0 +1,173 @@
+.navigation{
+    width: 20%;
+    position: fixed;
+    background-color: rgba($color-white, .3);
+    top: 15%;
+    border-radius: 10px;
+    
+    @include respond(tab-port){
+        width: 80%;
+    }
+
+    &__checkbox{
+        display: none;
+    }
+
+    &__button{
+        // display: none;
+        visibility: hidden;
+        @include respond(tab-port){
+            background-color: $color-white;
+            visibility: visible;
+            z-index: 25000000;
+            height: 7rem;
+            width: 7rem;
+            border-radius: 50%;
+            position: fixed;
+            top: 6rem;
+            left: 6rem;
+            box-shadow: 0 1rem 3rem rgba($color-black, .1);
+            text-align: center;
+            cursor: pointer;
+        }
+
+    }
+
+    &__background{
+        @include respond(tab-port){
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+            position: fixed;
+            top: 6.5rem;
+            z-index: 15000000;
+            left: 6.5rem;
+            background-image: radial-gradient($color-primary-light, $color-primary);
+            transition: transform .8s cubic-bezier(0.83, 0, 0.17, 1);
+            //transform: scale(0);
+        }
+    }
+
+    &__nav{
+
+        @include respond(tab-port) {
+            height: 100vh;
+            width: 0;
+            position: fixed;
+            z-index: 20000000;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+    }
+
+    &__list{
+        list-style: none;
+        text-align: center;
+        @include respond(tab-port) {
+            @include code--block;
+            text-align: center;
+            list-style: none;
+            text-align: center;
+        }
+    }
+
+    &__item {
+        @include respond(tab-port){
+            margin: 1rem;
+        }
+        
+    }
+
+    &__link{
+        text-decoration: none;
+        color: $color-white;
+        display: block;
+        font-size: 2rem;
+        padding: 2rem;
+
+        @include respond(tab-port){
+            &:link,
+            &:visited{
+                display: inline-block;
+                font-size: 2.5rem;
+                font-weight: 300;
+                padding: 1rem 2rem;
+                color: $color-white;
+                text-transform: uppercase;
+                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
+                background-size: 250%;
+                transition: all .4s;
+            }
+
+            &:hover,
+            &:active{
+                background-position: 100%;
+                cursor: pointer;
+                color: $color-primary;
+            }
+
+        }
+    }
+    &__checkbox:checked ~ &__background{
+        transform: scale(80);
+    }
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
+    }
+
+    &__icon{
+        position: relative;
+        margin-top: 3.5rem;
+        &,
+        &::before,
+        &::after{
+            width: 3rem;
+            height: 2px;
+            background-color: $color-black;
+            display: inline-block;
+        }
+
+        &::before,
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all .2s;
+        }
+
+        &::before{
+            top: -.8rem;
+        }
+
+        &::after {
+            top: .8rem;
+        }
+    }
+
+    &__button:hover &__icon::before{
+        top: -1rem;
+    }
+
+    &__button:hover &__icon::after {
+        top: 1rem;
+    }
+
+    &__checkbox:checked + &__button &__icon{
+        background: transparent;
+    }
+    &__checkbox:checked+&__button &__icon::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    &__checkbox:checked+&__button &__icon::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    &__background ~ &__link:active{
+        background-color: red;
+    }
+}

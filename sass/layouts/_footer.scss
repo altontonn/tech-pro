@@ -1,0 +1,67 @@
+.footer{
+    padding: 5rem 10rem;
+    background-color: rgba($color-black, .4);  
+    margin-top: -5rem;
+
+    &__one{
+        width: 100%;
+        color: rgba($color-white, .9);
+
+        @include respond(phone){
+            text-align: center;
+        }
+    }
+    &__one h2{
+        @include respond(phone){
+            text-decoration: underline;
+            font-size: 2.5rem;
+            margin-top: 2rem;
+            font-weight: 100;
+        }
+    }
+    
+    &__clyde{
+        list-style: none;
+
+
+        &--links{
+            display: block;
+            &:before{
+                content: "\00BB";
+                font-size: 3rem;
+            }
+        }
+
+        &--anchor{
+            text-decoration: none;
+            color: rgba($color-primary, .9);
+            font-size: 2rem;
+        }
+    }
+    &__call{
+        list-style: none;
+
+        &--1{
+            display: block;
+            padding: 0 0 2rem 0;
+        }
+
+        &--2{
+            color: $color-primary;
+            font-size: 3rem;
+        }
+    }
+
+    &__icons{
+        list-style: none;
+        
+        &--1{
+            display: inline-block;
+        }
+        &--2{
+            color: rgba($color-white, .9);
+            font-size: 4rem;
+        }
+    }
+
+}
