@@ -27,10 +27,14 @@
             overflow: hidden;
             transition: .5s;
             opacity: 0;
+            @include respond(tab-port){
+                left: 1.3rem;
+            }
         }
 
         &:hover &--hover{
             opacity: 1;
+            
         }
 
         &--text{

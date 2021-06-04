@@ -7,6 +7,7 @@
     
     @include respond(tab-port){
         width: 80%;
+        z-index: 28;
     }
 
     &__checkbox{
@@ -87,10 +88,15 @@
         font-size: 2rem;
         padding: 2rem;
 
+        &:hover{
+            font-weight: 100;
+            color: $color-white;
+        }
+
         @include respond(tab-port){
             &:link,
             &:visited{
-                display: inline-block;
+                display: block;
                 font-size: 2.5rem;
                 font-weight: 300;
                 padding: 1rem 2rem;
@@ -99,6 +105,7 @@
                 background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
                 background-size: 250%;
                 transition: all .4s;
+                
             }
 
             &:hover,
@@ -116,6 +123,7 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
+        //z-index: 20000000;
     }
 
     &__icon{
@@ -170,4 +178,5 @@
     &__background ~ &__link:active{
         background-color: red;
     }
+
 }
