@@ -35,12 +35,16 @@
         width: 100%;
 
         &__heading{
-            padding-top: 3rem;
+            padding-top: 5rem;
             font-weight: 700;
             font-size: 3rem;
             // box-shadow: 0 1.4rem 9rem rgba($color-primary-light, .3);
             position: relative;
             color: $color-primary;
+
+            @include respond(tab-port){
+                padding: 3rem;
+            }
         }
         &__heading span{
             font-size: 80px;
