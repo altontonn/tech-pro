@@ -1,6 +1,10 @@
 .row{
+<<<<<<< HEAD
     //margin: 0 auto;
     // width: $grid-width;
+=======
+    //width: $grid-width;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;

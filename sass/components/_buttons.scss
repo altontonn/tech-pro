@@ -1,7 +1,12 @@
 .btn {
     text-decoration: none;
     padding: 1rem 3rem;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 8%;
+    transition: all .2s;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     display: inline-block;
     font-size: 2.1rem;
     position: relative;
@@ -17,23 +22,36 @@
         height: 100%;
         top: 0; 
         left: 0;
+<<<<<<< HEAD
         border-radius: 5px;
         z-index: -1;
         transition: all .2s;
     } 
+=======
+        border-radius: 8%;
+        z-index: -1;
+        transition: all .2s;
+    }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
     &:hover{
         transform: translateY(-.2rem);
         box-shadow: 0 1.4rem 4rem rgba($color-primary-light, .3);
+<<<<<<< HEAD
         cursor: pointer;
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
         &::after{
             transform: scale(2);
             opacity: 0;
+<<<<<<< HEAD
             @include respond(tab-land){
                 transform: scale(2);
                 opacity: 0; 
             }
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
         }
     }
 
@@ -45,10 +63,15 @@
     &--classic{
         color: $color-white;
         background-color: $color-primary-light;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
         &::after{
             background-color: $color-primary-light;
         }
+<<<<<<< HEAD
         &-1{
             @include respond(phone){
                 width: 100%;
@@ -59,6 +82,8 @@
             display: block;
             margin-top: 5rem; 
         }
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     }
     &--about{
         padding: 1rem 1.3rem;

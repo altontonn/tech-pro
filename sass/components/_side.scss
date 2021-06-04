@@ -1,10 +1,13 @@
 .side{ 
     width: 100%;
 
+<<<<<<< HEAD
     // @include respond(tab-port){
     //     width: 80%;
     // }
 
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
      &__call{
          color: $color-white;
      }
@@ -27,6 +30,7 @@
         left: -.4rem;
         top: -2.2rem;
         z-index: -44;
+<<<<<<< HEAD
 
         @include respond(tab-port){
             width: 8rem;
@@ -50,4 +54,16 @@
     @include respond(phone){
         font-size: 1.5rem;
     }
+=======
+    }
+}
+.side__icon h4{
+        display: inline-block;
+        position: absolute;
+        padding-left: 4rem;
+        font-weight: 700;
+        top: 1rem;
+        white-space: nowrap;
+        font-size: 1.7rem;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }

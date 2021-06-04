@@ -3,6 +3,7 @@
     background-color: rgba($color-black, .4);  
     margin-top: -5rem;
 
+<<<<<<< HEAD
     &__one{
         width: 100%;
         color: rgba($color-white, .9);
@@ -18,6 +19,15 @@
             margin-top: 2rem;
             font-weight: 100;
         }
+=======
+    @include respond(phone) {
+        width: 77rem;
+    }
+
+    &__one{
+        width: 100%;
+        color: rgba($color-white, .9);
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     }
     
     &__clyde{

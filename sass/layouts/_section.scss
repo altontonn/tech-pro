@@ -3,10 +3,23 @@
     //     width: 100%;
     //     padding: 0;
     // }
+<<<<<<< HEAD
     @include respond(tab-port){
         width: 100%;
         //z-index: -22;
     }
+=======
+    
+    @include respond(tab-port){
+        z-index: -20000;
+        width: 120rem;
+       
+    }
+    // @include respond(phone) {
+    //     // z-index: -20000;
+    //     width: 60rem;
+    // }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }
 .section{
     background: $background-color;
@@ -14,6 +27,13 @@
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 
+<<<<<<< HEAD
+=======
+    @include respond(phone) {
+        margin-top: 8rem;
+        width: 77rem;
+    }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
     &--content{
         padding: 23rem 0;
@@ -23,8 +43,14 @@
             padding: 20rem 0;
         }
         @include respond(phone) {
+<<<<<<< HEAD
             padding: 20rem 0;
         }
+=======
+            padding: 16rem 0;
+        }
+        
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     }
 
     &--heading{
@@ -37,8 +63,11 @@
 
         @include respond(phone) {
             font-size: 1.5rem;
+<<<<<<< HEAD
             min-width: fit-content;
             padding-top: 10rem;
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
         }
     }
 
@@ -63,6 +92,7 @@
     &--photo{
         width: 80%;
         float: right;
+<<<<<<< HEAD
 
         @include respond(tab-land){
             border-radius: 60%;
@@ -80,12 +110,21 @@
             border-radius: 0;
             left: -20%;
         }
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     }
 }
 .section--services{
     background: $background-color;
     color: $color-white;
     padding: 5rem 0;
+<<<<<<< HEAD
+=======
+
+    @include respond(phone) {
+        width: 77rem;
+    }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }
 .section--text span{
     font-size: 10rem;
@@ -97,6 +136,7 @@
     left: 0;
     right: 0;
     top: -4.6rem;
+<<<<<<< HEAD
 
     @include respond(tab-land){
         top: -3rem;
@@ -108,11 +148,24 @@
     background: $background-color;
     margin-top: 4rem;
     margin-bottom: 4rem;    
+=======
+}
+.section--about{
+    padding: 0 0 47rem 0;
+    background: $background-color;
+    margin-top: 4rem;
+    position: relative;
+
+    @include respond(phone) {
+        width: 77rem;
+    }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }
 .skills{
      background: $background-color;
      color: $color-white;
      padding: 5rem 10rem;
+<<<<<<< HEAD
 }
 .portfolio{
     padding: 5rem 10rem 9rem 10rem;
@@ -121,5 +174,27 @@
 .contact {
     padding: 5rem 10rem 6rem 10rem;
     background-color: $background-color;
+=======
+
+     @include respond(phone) {
+        width: 77rem;
+    }
+}
+.portfolio{
+    padding: 5rem 10rem;
+    background-color: rgba($color-white, .9);
+
+    @include respond(phone) {
+        width: 77rem;
+    }
+}
+.contact {
+    padding: 5rem 10rem;
+    background-color: $background-color;
+
+    @include respond(phone) {
+        width: 77rem;
+    }
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }
 
