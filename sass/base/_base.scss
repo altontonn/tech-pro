@@ -1,13 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 }
 
 html{
     font-size: 62.5%; 
+<<<<<<< HEAD
     max-width: 100%;
     overflow-x: hidden;
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     
     @include respond(tab-land) {
         font-size: 56%; //1rem - 16px 9/16 = 56%     width < 900
@@ -27,8 +33,12 @@ body{
     font-size: 1.6rem;
     background: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)),
     url(../img/dark-wood-texture.jpg); 
+<<<<<<< HEAD
     background-attachment: fixed; 
     max-width: 100%;
     overflow-x: hidden;
+=======
+    background-attachment: fixed;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     //overflow-x: hidden;
 }

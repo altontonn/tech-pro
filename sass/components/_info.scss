@@ -1,5 +1,6 @@
 .info {
     text-align: center;
+<<<<<<< HEAD
     position: relative;
 
     @include respond(phone){
@@ -33,6 +34,25 @@
 
     &--sect{
         width: 100%;
+=======
+    
+    &--about{
+        width: 50%;
+        float: left;
+    }
+
+    &--image{
+        width: 39rem;
+        top: 5rem;
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+    }
+
+    &--sect{
+        width: 50%;
+        float: right;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
         &__heading{
             padding-top: 5rem;
@@ -41,10 +61,19 @@
             // box-shadow: 0 1.4rem 9rem rgba($color-primary-light, .3);
             position: relative;
             color: $color-primary;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
 
             @include respond(tab-port){
                 padding: 3rem;
             }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
+>>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         }
         &__heading span{
             font-size: 80px;
@@ -56,10 +85,13 @@
             left: 0;
             right: 0;
             top: 2rem;
+<<<<<<< HEAD
 
             @include respond(tab-port){
                 top: -1rem;
             }
+=======
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
         }
         &__job-title{
             font-size: 2.5rem;
@@ -69,11 +101,16 @@
     }
     &--text{                                                                                                                                                                        
         color: $color-white;
+<<<<<<< HEAD
         font-size: 1.6rem;
         line-height: 2.8rem;
 
         @include respond(phone){
             font-size: 1.5rem;
         }
+=======
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+>>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     }
 }
