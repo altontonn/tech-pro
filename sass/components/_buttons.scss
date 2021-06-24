@@ -1,15 +1,8 @@
 .btn {
     text-decoration: none;
     padding: 1rem 3rem;
-<<<<<<< HEAD
     border-radius: 5px;
-<<<<<<< HEAD
-=======
-=======
-    border-radius: 8%;
     transition: all .2s;
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
     display: inline-block;
     font-size: 2.1rem;
     position: relative;
@@ -25,49 +18,28 @@
         height: 100%;
         top: 0; 
         left: 0;
-<<<<<<< HEAD
         border-radius: 5px;
         z-index: -1;
         transition: all .2s;
-    } 
-<<<<<<< HEAD
-=======
-=======
         border-radius: 8%;
         z-index: -1;
         transition: all .2s;
     }
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
 
     &:hover{
         transform: translateY(-.2rem);
         box-shadow: 0 1.4rem 4rem rgba($color-primary-light, .3);
-<<<<<<< HEAD
         cursor: pointer;
-=======
-<<<<<<< HEAD
         cursor: pointer;
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
 
         &::after{
             transform: scale(2);
             opacity: 0;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
+
             @include respond(tab-land){
                 transform: scale(2);
                 opacity: 0; 
             }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         }
     }
 
@@ -79,15 +51,10 @@
     &--classic{
         color: $color-white;
         background-color: $color-primary-light;
-<<<<<<< HEAD
-=======
-        
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
 
         &::after{
             background-color: $color-primary-light;
         }
-<<<<<<< HEAD
         &-1{
             @include respond(phone){
                 width: 100%;
@@ -98,11 +65,6 @@
             display: block;
             margin-top: 5rem; 
         }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
     }
     &--about{
         padding: 1rem 1.3rem;

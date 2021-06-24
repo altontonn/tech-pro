@@ -32,10 +32,6 @@
     @if $breakpoint == phone {
         @media (max-width: 37.5em){ @content }; //600px
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
     @if $breakpoint == tab-port {
         @media (max-width: 56.25em){ @content }; //900px
     }

@@ -4,15 +4,12 @@
     background-color: rgba($color-white, .3);
     top: 15%;
     border-radius: 10px;
-<<<<<<< HEAD
     
     @include respond(tab-port){
         width: 80%;
         z-index: 28;
     }
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
-
+    
     &__checkbox{
         display: none;
     }
@@ -34,7 +31,6 @@
             text-align: center;
             cursor: pointer;
         }
-
     }
 
     &__background{
@@ -47,35 +43,23 @@
             z-index: 15000000;
             left: 6.5rem;
             background-image: radial-gradient($color-primary-light, $color-primary);
-<<<<<<< HEAD
             transition: transform .8s cubic-bezier(0.83, 0, 0.17, 1);
-=======
             transition: all .8s cubic-bezier(0.83, 0, 0.17, 1);
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
             //transform: scale(0);
         }
     }
 
     &__nav{
-
+        
         @include respond(tab-port) {
-<<<<<<< HEAD
+            width: 100%;
             height: 100vh;
-            width: 0;
-=======
-            //height: 100vh;
-            width: 100vw;
-            height: 100vh;
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
             position: fixed;
             z-index: 20000000;
             top: 0;
             left: 0;
             opacity: 0;
-<<<<<<< HEAD
-=======
-            //visibility: hidden;
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
+            visibility: hidden;
             transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
     }
@@ -87,10 +71,6 @@
             @include code--block;
             text-align: center;
             list-style: none;
-<<<<<<< HEAD
-            text-align: center;
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
         }
     }
 
@@ -107,21 +87,10 @@
         display: block;
         font-size: 2rem;
         padding: 2rem;
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         &:hover{
             font-weight: 100;
             color: $color-white;
         }
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         @include respond(tab-port){
             &:link,
             &:visited{
@@ -134,14 +103,6 @@
                 background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
                 background-size: 250%;
                 transition: all .4s;
-<<<<<<< HEAD
-                
-=======
-<<<<<<< HEAD
-                
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
             }
 
             &:hover,
@@ -159,14 +120,7 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
-<<<<<<< HEAD
-        //z-index: 20000000;
-=======
-<<<<<<< HEAD
-        //z-index: 20000000;
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
+        visibility: visible;
     }
 
     &__icon{
@@ -221,12 +175,4 @@
     &__background ~ &__link:active{
         background-color: red;
     }
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
 }

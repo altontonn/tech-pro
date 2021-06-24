@@ -3,22 +3,10 @@
     
 
     &__image{
-<<<<<<< HEAD
         width: 100%;
         margin-bottom: -5rem;
         position: relative;
 
-        @include respond(phone){
-            margin: 1rem;
-        }
-
-=======
-        width: 45%;
-        display: inline-block;
-        padding: 2px;
-        position: relative;
-
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
         &--class{
             width: 100%;
             height: 100%; 
@@ -35,30 +23,13 @@
             overflow: hidden;
             transition: .5s;
             opacity: 0;
-<<<<<<< HEAD
             @include respond(tab-port){
                 left: 1.3rem;
             }
-=======
-<<<<<<< HEAD
-            @include respond(tab-port){
-                left: 1.3rem;
-            }
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         }
 
         &:hover &--hover{
             opacity: 1;
-<<<<<<< HEAD
-            
-=======
-<<<<<<< HEAD
-            
-=======
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
->>>>>>> d7be2adae74bc8dd04f24a98edf7c4ac255fc19f
         }
 
         &--text{

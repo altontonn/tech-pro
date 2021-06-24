@@ -2,7 +2,6 @@
     background-color: rgba($color-white, .3);
     text-align: center;
     position: relative; 
-<<<<<<< HEAD
     padding: 1rem;
     border-radius: 5px;
 
@@ -14,16 +13,9 @@
     @include respond(phone){
         width: 60%;
         margin: 2rem auto;
-=======
-    padding: 2rem;
-    border-radius: 5px;
-
-    @include respond(phone){
-        width: 60%;
-        margin: 1rem auto;
->>>>>>> 3f94d7002e884777cb7e1c6839f7230f9be7e830
+        padding: 2rem;
+        border-radius: 5px;
     }
-
     &--header{
         padding: 2rem 0 3rem 0;
     }
