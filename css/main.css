@@ -563,6 +563,7 @@ body {
   width: 100%; }
   .work__image {
     width: 100%;
+    height: auto;
     margin-bottom: -5rem;
     position: relative; }
     .work__image--class {
@@ -578,27 +579,57 @@ body {
       width: 90%;
       overflow: hidden;
       transition: .5s;
-      opacity: 0; }
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
       @media (max-width: 56.25em) {
         .work__image--hover {
           left: 1.3rem; } }
     .work__image:hover .work__image--hover {
       opacity: 1; }
     .work__image--text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       color: #fff;
       background-color: #10cfffce;
+      justify-content: center;
       padding: 5px 10px;
       white-space: nowrap;
       border: none;
       outline: none;
-      text-decoration: none; }
+      margin-right: 1rem;
+      text-decoration: none;
+      height: 3.5rem; }
       .work__image--text:hover {
         background-color: #10cfff; }
+    .work__image--text-1 {
+      color: #fff;
+      background-color: transparent;
+      padding: 5px 10px;
+      border: 1px solid #fff;
+      white-space: nowrap;
+      height: 3.5rem;
+      outline: none;
+      text-decoration: none; }
+      .work__image--text-1:hover {
+        color: #fff; }
 
+/*&-1{
+        // position: absolute;
+        // top: 5rem;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        color: $color-white;
+        background-color: transparent;
+        padding: 5px 10px; 
+        border: 1px solid $color-white;
+        white-space: nowrap;
+        outline: none;
+        text-decoration: none;
+        &:hover{
+            color: $color-white;
+        }
+    }
+     */
 .row:not(:last-child) {
   margin-bottom: 8rem; }
 
@@ -671,7 +702,7 @@ body {
     width: 100%; } }
 
 .section {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
@@ -750,18 +781,18 @@ body {
 
 .section--about {
   padding: 5rem 10rem;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   margin-top: 4rem;
   margin-bottom: 4rem; }
 
 .skills {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   padding: 5rem 10rem; }
 
 .portfolio {
   padding: 5rem 10rem 9rem 10rem;
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: rgba(255, 255, 255, 0.2); }
 
 .contact {
   padding: 5rem 10rem 6rem 10rem;

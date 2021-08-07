@@ -4,8 +4,10 @@
 
     &__image{
         width: 100%;
+        height: auto;
         margin-bottom: -5rem;
         position: relative;
+        
 
         &--class{
             width: 100%;
@@ -23,6 +25,10 @@
             overflow: hidden;
             transition: .5s;
             opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             @include respond(tab-port){
                 left: 1.3rem;
             }
@@ -33,18 +39,58 @@
         }
 
         &--text{
-            @include code--block;
+            //@include code--block;
             color: $color-white;
             background-color: $color-primary;
+            justify-content: center;
             padding: 5px 10px; 
             white-space: nowrap;
             border: none;
             outline: none;
+            margin-right: 1rem;
             text-decoration: none;
+            height: 3.5rem;
 
             &:hover{
                 background-color: $color-primary-light;
             }
         }
+
+        &--text-1{
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // transform: translate(-50%, -50%);
+            color: $color-white;
+            background-color: transparent;
+            padding: 5px 10px; 
+            border: 1px solid $color-white;
+            white-space: nowrap;
+            height: 3.5rem;
+            outline: none;
+            text-decoration: none;
+
+            &:hover{
+                color: $color-white;
+            }
+        }
     }
 }
+
+/*&-1{
+        // position: absolute;
+        // top: 5rem;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        color: $color-white;
+        background-color: transparent;
+        padding: 5px 10px; 
+        border: 1px solid $color-white;
+        white-space: nowrap;
+        outline: none;
+        text-decoration: none;
+        &:hover{
+            color: $color-white;
+        }
+    }
+     */

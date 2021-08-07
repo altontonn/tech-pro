@@ -6,7 +6,7 @@
     
 }
 .section{
-    background: $background-color;
+    background: rgba($color-black, .2);
     color: $color-white; 
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
@@ -102,18 +102,18 @@
 }
 .section--about{
     padding: 5rem 10rem;
-    background: $background-color;
+    background: rgba($color-black, .2);
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 .skills{
-     background: $background-color;
+     background: rgba($color-black, .2);
      color: $color-white;
      padding: 5rem 10rem;
 }
 .portfolio{
     padding: 5rem 10rem 9rem 10rem;
-    background-color: rgba($color-white, .9);
+    background-color: rgba($color-white, .2);
 }
 .contact {
     padding: 5rem 10rem 6rem 10rem;
