@@ -6,7 +6,7 @@
     
 }
 .section{
-    background: rgba($color-black, .2);
+    background: rgba($color-black, .2);;
     color: $color-white; 
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
@@ -80,7 +80,7 @@
     }
 }
 .section--services{
-    background: $background-color;
+    background-color: rgba($color-white, .1);
     color: $color-white;
     padding: 5rem 0;
 }
@@ -99,6 +99,10 @@
         top: -3rem;
         font-size: 8rem;
     }
+    @include respond(tab-port){
+        top: -1.8rem;
+        font-size: 6.5rem;
+    }
 }
 .section--about{
     padding: 5rem 10rem;
@@ -113,10 +117,10 @@
 }
 .portfolio{
     padding: 5rem 10rem 9rem 10rem;
-    background-color: rgba($color-white, .2);
+    background-color: rgba($color-white, .1);
 }
 .contact {
     padding: 5rem 10rem 6rem 10rem;
-    background-color: $background-color;
+    background-color: rgba($color-white, .1);
 }
 

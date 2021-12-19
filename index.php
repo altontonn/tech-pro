@@ -1,8 +1,18 @@
-<!-- <?php
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 $result = "";
 $danger = "";
 if(isset($_POST['submit'])){
-    require 'phpmailer/PHPMailerAutoload.php';
+    // require 'phpmailer/PHPMailerAutoload.php';
+    // require 'phpmailer/class.smtp.php';
+    // require 'phpmailer/class.phpmailer.php';
+
+    require 'PHPMailer/Exception.php';
+    require 'PHPMailer/PHPMailer.php';
+    require 'PHPMailer/SMTP.php';
+
+
     $mail = new PHPMailer;
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
@@ -11,7 +21,7 @@ if(isset($_POST['submit'])){
     $mail->SMTPSecure = 'tls'; 
 
     $mail->Username = 'altontonnalumasa@gmail.com';  
-    $mail->Password = 'altontonn3150';
+    $mail->Password = 'newton%2020';
 
     $mail->setFrom($_POST['email'],$_POST['first_name'], $_POST['last_name']);
     $mail->addAddress('newtonalumasa82@gmail.com'); 
@@ -28,7 +38,7 @@ if(isset($_POST['submit'])){
     }
 }
 
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,15 +49,15 @@ if(isset($_POST['submit'])){
     <title>Newton</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts-icon/css/line-awesome.css">
     <link rel="stylesheet" href="fonts-icon/css/line-awesome.min.css">
     <link rel="shortcut icon" href="img/apple.jpg" type="image/jpg">
-    <link rel="stylesheet" href="css/main.css">
     <script>
         function closeNav(){
             document.getElementById("navi-toggle").checked = false;
@@ -85,7 +95,7 @@ if(isset($_POST['submit'])){
                     <div class="section--content">
                         <div class="section--heading">
                             <h2 class="section--text text-center u-margin-bm-sm">Newton Alumasa</h2>
-                            WEB DEVELOPER AND DESIGNER FROM KENYA
+                            WEB DEVELOPER AND DESIGNER FROM KENYA<br>
                             I believe that people are the center of every solution leading us to the right software just
                             waiting
                             to be designed.
@@ -106,14 +116,14 @@ if(isset($_POST['submit'])){
                                 <div class="box">
                                     <i class="box--icon las la-code"></i>
                                     <h3 class="box--header">Web Design</h3>
-                                    A highly-motivated web design graduate with a Diploma from KCA University.Eager to assist clients in building the best websites for small business clients and delivering unforgettable customer experience. Designed 2+ Wordpress-based websites for friends and family. 3-month training at TechCamp Kenya.
+                                    A highly-motivated web design graduate with a Degree from KCA University.Eager to assist clients in building the best websites for small business clients and delivering unforgettable customer experience. Designed 2+ Wordpress-based websites for friends and family. 3-month training at TechCamp Kenya.
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="box">
                                     <i class="box--icon las la-laptop"></i>
                                     <h3 class="box--header">Web Development</h3>
-                                    Goal-oriented Web Developer with a Diploma degree in Information Teechnology and looking to enhance my professional experience with an IT company specializing in web development. Armed with a deep sense of responsibility and possessing very high levels of enthusiasm to give my 110% for any endeavor.
+                                    Goal-oriented Web Developer with a  Bachelor of Science in Applied Computing and looking to enhance my professional experience with an IT company specializing in web development. Armed with a deep sense of responsibility and possessing very high levels of enthusiasm to give my 110% for any endeavor.
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">

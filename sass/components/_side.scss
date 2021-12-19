@@ -1,13 +1,13 @@
 .side{ 
-    width: 100%;
+    //max-width: 100%;
 
-    // @include respond(tab-port){
+    // @include respond(tab-port-1){
     //     width: 80%;
     // }
 
-     &__call{
-         color: $color-white;
-     }
+    //  &__call{
+    //      max-width: 100%;
+    //  }
 }
 .side__icon{
     color: $color-white; 
@@ -28,35 +28,28 @@
         top: -2.2rem;
         z-index: -44;
 
-        @include respond(tab-port){
-            width: 8rem;
-            height: 8rem;
+        @include respond(tab-port-1){
+            
         }
     }
 }
 .side__icon h4{
     display: inline-block;
-    position: absolute;
+    //position: absolute;
     padding-left: 4rem;
     font-weight: 700;
     top: 1rem;
-    white-space: nowrap;
+    //white-space: pre-wrap;
     font-size: 1.7rem;
+    //word-wrap: break-word;
+    //hyphens: auto;
+    
 
     @include respond(tab-port){
-        padding-left: 1rem;
+        //padding-left: 1rem;
         font-size: 1.6rem;
     }
     @include respond(phone){
         font-size: 1.5rem;
     }
-}
-.side__icon h4{
-        display: inline-block;
-        position: absolute;
-        padding-left: 4rem;
-        font-weight: 700;
-        top: 1rem;
-        white-space: nowrap;
-        font-size: 1.7rem;
 }
