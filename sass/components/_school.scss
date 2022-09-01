@@ -4,13 +4,37 @@
 
   li {
     padding: 3rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   i {
-    color: red;
+    font-size: 4rem;
   }
 
+  li .la-html5 {
+    color: #fa9d86;
+  }
+
+  li .la-css3 {
+    color: rgb(28, 28, 248);
+  }
+
+  li .la-wordpress {
+    color: rgb(79, 197, 243);
+  }
+
+  li .la-js-square {
+    color: rgb(247, 247, 56);
+  }
+
+  li .la-php {
+    color: rgb(135, 158, 235)
+  }
+
+  li .la-git-alt {
+    color: #ff6347;
+  }
+  
   li p {
     color: $color-white;
     float: right;
@@ -59,6 +83,14 @@
 
     &--php {
       width: 50%;
+      position: absolute;
+      border: 5px solid $color-primary;
+      animation-name: php;
+      animation-duration: 3s;
+    }
+
+    &--git {
+      width: 75%;
       position: absolute;
       border: 5px solid $color-primary;
       animation-name: php;

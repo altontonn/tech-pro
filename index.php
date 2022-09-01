@@ -1,41 +1,35 @@
-<!-- <?php
+<?php
+// $message_sent = false;
+// if(isset($_POST['email']) && $_POST['email'] != '') {
+// if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+//   //submit the form
+//     $firstname = $_POST['first_name'];
+//     $lastname = $_POST['last_name'];
+//     $email = $_POST['email'];
+//     $phone = $_POST['phone'];
+//     $message = $_POST['message'];
+//     $to = 'newtonalumasa82@gmail.com';
+//     $body = '<h4>FirstName: '.$firstname.'<br>LastName: '.$lastname.'<br> Email: '.$email.'<br> Phone: '.$phone.'<br> Message: '.$message.'</h4>';
+//     mail($to, $message, $body);
 
-use PHPMailer\PHPMailer\PHPMailer;
+//     $message_sent = true;
+//   } 
+// }
 
-$result = "";
-$danger = "";
-if(isset($_POST['submit'])) {
-    require 'phpmailer/Exception.php';
-    require 'phpmailer/SMTP.php';
-    require 'phpmailer/PHPMailer.php';
-
-
-    $mail = new PHPMailer;
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->Port = 587;
-    $mail->SMTPAuth = true; 
-    $mail->SMTPSecure = 'tls'; 
-
-    $mail->Username = 'altontonnalumasa@gmail.com';  
-    $mail->Password = 'altontonn3150';
-
-    $mail->setFrom($_POST['email'],$_POST['first_name'], $_POST['last_name']);
-    $mail->addAddress('newtonalumasa82@gmail.com'); 
-    $mail->addReplyTo($_POST['email'], $_POST['first_name']);
-
-    $mail->isHTML(true);
-    $mail->Subject = 'Website Enquiries Needed';
-    $mail->Body = '<h4>FirstName: '.$_POST['first_name'].'<br>LastName: '.$_POST['last_name'].'<br> Email: '.$_POST['email'].'<br> Phone: '.$_POST['phone'].'<br> Message: '.$_POST['message'].'</h4>';
-
-    if(!$mail->send()){
-        $danger = 'Message not Sent!!';
-    }else{
-        $result = "Thanks, ".$_POST['first_name']." for contacting. Will Keep in touch.";
-    }
+if(!empty($_POST['submit'])) {
+  $firstname = $_POST['first_name'];
+  $lastname = $_POST['last_name'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $message = $_POST['message'];
+  $to = 'newtonalumasa82@gmail.com';
+  $body = '<h4>FirstName: '.$firstname.'<br>LastName: '.$lastname.'<br> Email: '.$email.'<br> Phone: '.$phone.'<br> Message: '.$message.'</h4>';
+  if(mail($to, $message, $body)){
+   $text = 'We\'ll get in touch with you';
+  }
 }
 
-?> -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -282,17 +276,20 @@ if(isset($_POST['submit'])) {
           <li><i class="lab la-html5"></i><span class="bar"><span class="bar--html"></span></span>
             <p>70%</p>
           </li>
-          <li>CSS3<span class="bar"><span class="bar--css"></span></span>
+          <li><i class="lab la-css3"></i><span class="bar"><span class="bar--css"></span></span>
             <p>65%</p>
           </li>
-          <li>WORDPRESS<span class="bar"><span class="bar--wordpress"></span></span>
+          <li><i class="lab la-wordpress"></i><span class="bar"><span class="bar--wordpress"></span></span>
             <p>80%</p>
           </li>
-          <li>JAVASCRIPT<span class="bar"><span class="bar--javascript"></span></span>
+          <li><i class="lab la-js-square"></i><span class="bar"><span class="bar--javascript"></span></span>
             <p>55%</p>
           </li>
-          <li>PHP<span class="bar"><span class="bar--php"></span></span>
+          <li><i class="lab la-php"></i><span class="bar"><span class="bar--php"></span></span>
             <p>50%</p>
+          </li>
+          <li><i class="lab la-git-alt"></i><span class="bar"><span class="bar--git"></span></span>
+            <p>70%</p>
           </li>
         </div>
       </section>
@@ -322,12 +319,11 @@ if(isset($_POST['submit'])) {
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <h2 class="text-center" style="color: #10cfff;"><?= $result; ?></h2>
-            <h2 class="text-center" style="color: red;"><?= $danger; ?></h2>
             <h2 class="text-center" style="color: #10cfff;"></h2>
             <h2 class="text-center" style="color: red;"></h2>
-            <form class="form" action="" method="POST"
-              enctype="multipart/form-data" value="submit" name="myemailform">
+            <h2 class="text-center" style="color: #10cfff;"></h2>
+            <h2 class="text-center" style="color: red;"></h2>
+            <form class="form" method="POST">
               <div class="form__group">
                 <input type="text" class="form__input" name="first_name" placeholder="First Name" id="name" required>
                 <label for="name" class="form__label">Fisrt Name</label>
@@ -354,7 +350,13 @@ if(isset($_POST['submit'])) {
                 <label for="message" class="form__label">Message</label>
               </div>
               <input type="Submit" name="submit" class="btn btn--classic btn--classic-1">
+              <?php  
+                if(!empty($text)) { ?>
+                <h3 class="text-primary"><?php echo $text ?></h3>
+                <?php } ?>
+              ?>
             </form>
+            
           </div>
         </div>
       </section>
