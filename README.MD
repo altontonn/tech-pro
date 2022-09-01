@@ -1,6 +1,7 @@
 
 
 # Portfolio
+<img src="img/portfolio-see.png">
 
 > My Personal Portfolio
 
