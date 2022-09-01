@@ -1,18 +1,3 @@
-<?php
-if(!empty($_POST['submit'])) {
-  $firstname = $_POST['first_name'];
-  $lastname = $_POST['last_name'];
-  $email = $_POST['email'];
-  $phone = $_POST['phone'];
-  $message = $_POST['message'];
-  $to = 'newtonalumasa82@gmail.com';
-  $body = '<h4>FirstName: '.$firstname.'<br>LastName: '.$lastname.'<br> Email: '.$email.'<br> Phone: '.$phone.'<br> Message: '.$message.'</h4>';
-  if(mail($to, $message, $body)){
-   $text = 'We\'ll get in touch with you';
-  }
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,9 +12,9 @@ if(!empty($_POST['submit'])) {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
   </script>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="fonts-icon/css/line-awesome.css">
-  <link rel="stylesheet" href="fonts-icon/css/line-awesome.min.css">
   <link rel="shortcut icon" href="img/apple.jpg" type="image/jpg">
 </head>
 <body>
@@ -306,7 +291,7 @@ if(!empty($_POST['submit'])) {
             <h2 class="text-center" style="color: red;"></h2>
             <h2 class="text-center" style="color: #10cfff;"></h2>
             <h2 class="text-center" style="color: red;"></h2>
-            <form class="form" method="POST">
+            <form method="POST" action="mailto:newtonalumasa82@gmail.com" enctype="multipart/form-data">
               <div class="form__group">
                 <input type="text" class="form__input" name="first_name" placeholder="First Name" id="name" required>
                 <label for="name" class="form__label">Fisrt Name</label>
@@ -318,7 +303,7 @@ if(!empty($_POST['submit'])) {
               </div>
 
               <div class="form__group">
-                <input type="number" class="form__input" name="phone" placeholder="Phone" id="phone" required>
+                <input type="tel" class="form__input" name="phone" placeholder="Phone" id="phone" required>
                 <label for="phone" class="form__label">Phone</label>
               </div>
 
@@ -332,12 +317,7 @@ if(!empty($_POST['submit'])) {
                     rows="4" cols="50"></textarea>
                 <label for="message" class="form__label">Message</label>
               </div>
-              <input type="Submit" name="submit" class="btn btn--classic btn--classic-1">
-              <?php  
-                if(!empty($text)) { ?>
-                <h3 class="text-primary"><?php echo $text ?></h3>
-                <?php } ?>
-              ?>
+              <input value="Submit" type="submit" name="submit" class="btn btn--classic btn--classic-1">
             </form>
             
           </div>
