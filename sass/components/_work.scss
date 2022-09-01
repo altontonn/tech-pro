@@ -15,10 +15,12 @@
 
     &--hover {
       @include hover;
+
       top: 3rem;
-      
+
       &-1 {
         @include hover;
+
         top: 1rem;
       }
 
