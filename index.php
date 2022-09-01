@@ -266,7 +266,7 @@ if(!empty($_POST['submit'])) {
           </div>
         </div>
       </section>
-      <!-- end of portfolio -->
+      <!-- end of portfolio --> 
 
       <section class="skills u-margin-bm-md" id="my_skills">
         <h2 class="section--text text-center u-margin-bm-md">My Skills
