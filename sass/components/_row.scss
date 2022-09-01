@@ -1,13 +1,14 @@
 .col-sm-4 {
-    @include respond(phone){
-        width: 100%;
-    }
-}
-.load{
-    display: none; 
-    margin-bottom: 7rem;
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
-.rada{
-    margin: 0 -10rem;
+.load {
+  display: none;
+  margin-bottom: 7rem;
+}
+
+.rada {
+  margin: 0 -10rem;
 }

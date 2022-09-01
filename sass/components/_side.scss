@@ -1,55 +1,35 @@
-.side{ 
-    //max-width: 100%;
+.side__icon {
+  color: $color-white;
+  position: relative;
+  font-size: 5rem;
+  padding: 0 0 8rem 2rem;
+  top: 2.7rem;
+  margin-bottom: 4rem;
 
-    // @include respond(tab-port-1){
-    //     width: 80%;
-    // }
-
-    //  &__call{
-    //      max-width: 100%;
-    //  }
+  &::after {
+    content: "";
+    position: absolute;
+    background: $color-primary;
+    width: 10rem;
+    height: 10rem;
+    left: -0.4rem;
+    top: -2.2rem;
+    z-index: -44;
+  }
 }
-.side__icon{
-    color: $color-white; 
-    position: relative;
-    font-size: 5rem;
-    padding: 0 0 8rem 2rem;
-    top: 2.7rem;
-    margin-bottom: 4rem;
-    
 
-    &::after{
-        content: "";
-        position: absolute;
-        background: $color-primary;
-        width: 10rem;
-        height: 10rem;
-        left: -.4rem;
-        top: -2.2rem;
-        z-index: -44;
+.side__icon h4 {
+  display: inline-block;
+  padding-left: 4rem;
+  font-weight: 700;
+  top: 1rem;
+  font-size: 1.7rem;
 
-        @include respond(tab-port-1){
-            
-        }
-    }
-}
-.side__icon h4{
-    display: inline-block;
-    //position: absolute;
-    padding-left: 4rem;
-    font-weight: 700;
-    top: 1rem;
-    //white-space: pre-wrap;
-    font-size: 1.7rem;
-    //word-wrap: break-word;
-    //hyphens: auto;
-    
+  @include respond(tab-port) {
+    font-size: 1.6rem;
+  }
 
-    @include respond(tab-port){
-        //padding-left: 1rem;
-        font-size: 1.6rem;
-    }
-    @include respond(phone){
-        font-size: 1.5rem;
-    }
+  @include respond(phone) {
+    font-size: 1.5rem;
+  }
 }

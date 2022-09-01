@@ -1,35 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%; 
-    max-width: 100%;
-    overflow-x: hidden;
-    
-    @include respond(tab-land) {
-        font-size: 56%; //1rem - 16px 9/16 = 56%     width < 900
-    }
-    @include respond(tab-port) {
-        font-size: 50%; //1rem - 16px 8/16 = 50%     width < 600
-    }
-    @include respond(big-desktop) {
-        font-size: 75%; // 1rem - 16px 12/16 = 75%
-    }
-    
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  @include respond(tab-land) {
+    font-size: 56%; //1rem - 16px 9/16 = 56%     width < 900
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; //1rem - 16px 8/16 = 50%     width < 600
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem - 16px 12/16 = 75%
+  }
 }
 
-body{ 
-    // padding: 3rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.6rem;
-    background: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)),
-    url(../img/dark-wood-texture.jpg); 
-    background-attachment: fixed; 
-    max-width: 100%;
-    overflow-x: hidden;
-    background-attachment: fixed;
-    //overflow-x: hidden;
+body {
+  // padding: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  background:
+    linear-gradient(rgba($color-black, 0.5), rgba($color-black, 0.5)),
+    url(../img/dark-wood-texture.jpg);
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
 }
