@@ -512,7 +512,6 @@
     "semver": "^7.3.7",
     "saxes": "^5.0.1",
     "semver-diff": "^3.1.1",
-    "scss-tokenizer": "^0.3.0",
     "setimmediate": "^1.0.5",
     "shebang-command": "^2.0.0",
     "remark": "^13.0.0",
