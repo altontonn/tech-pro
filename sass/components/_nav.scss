@@ -15,7 +15,6 @@
   }
 
   &__button {
-    // display: none;
     visibility: hidden;
 
     @include respond(tab-port) {
@@ -46,7 +45,6 @@
       background-image: radial-gradient($color-primary-light, $color-primary);
       transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
       transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1);
-      //transform: scale(0);
     }
   }
 
@@ -126,6 +124,7 @@
     width: 100%;
     visibility: visible;
   }
+  
 
   &__icon {
     position: relative;

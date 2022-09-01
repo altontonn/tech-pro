@@ -1,23 +1,9 @@
 const navToggle = document.getElementById('navi-toggle');
 const navigation = document.querySelector('.navigation__nav');
+const navBackground = document.querySelector('.navigation__background');
 
-navToggle.addEventListener('click', () => {
-  if (navigation.style.display === 'block') {
-    navigation.style.display = 'none';
-  } else {
-    navigation.style.display = 'block';
-  }
-});
-
-function closeNav() {
+closeNav = () => {
   navToggle.checked = false;
-  navToggle.addEventListener('click', () => {
-    if (navigation.style.display === 'block') {
-      navigation.style.display = 'none';
-    } else {
-      navigation.style.display = 'block';
-    }
-  });
 }
 
 const closeOne = document.querySelector('.closeOne');
