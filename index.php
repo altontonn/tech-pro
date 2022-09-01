@@ -292,7 +292,7 @@ if(!empty($_POST['submit'])) {
             <p>70%</p>
           </li>
         </div>
-      </section>
+      </section> 
 
       <section class="contact u-margin-bm-md" id="contact_me">
         <h2 class="section--text text-center u-margin-bm-md">Contact Me
