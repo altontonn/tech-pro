@@ -1,21 +1,4 @@
 <?php
-// $message_sent = false;
-// if(isset($_POST['email']) && $_POST['email'] != '') {
-// if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-//   //submit the form
-//     $firstname = $_POST['first_name'];
-//     $lastname = $_POST['last_name'];
-//     $email = $_POST['email'];
-//     $phone = $_POST['phone'];
-//     $message = $_POST['message'];
-//     $to = 'newtonalumasa82@gmail.com';
-//     $body = '<h4>FirstName: '.$firstname.'<br>LastName: '.$lastname.'<br> Email: '.$email.'<br> Phone: '.$phone.'<br> Message: '.$message.'</h4>';
-//     mail($to, $message, $body);
-
-//     $message_sent = true;
-//   } 
-// }
-
 if(!empty($_POST['submit'])) {
   $firstname = $_POST['first_name'];
   $lastname = $_POST['last_name'];

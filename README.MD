@@ -11,12 +11,19 @@ This is my personal portfolio to show case my recent projects and current front-
 - [stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
 ## linter for html&css + javascript (ESlint)
--[ ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+- [ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## ⚒️ Built With
 
-- HTML & SASS $ FLEX & JAVASCRIPT
-- Add media query to style my desktop version
+- HTML & SASS & BOOTSTRAP & FLEX & JAVASCRIPT
+- Media queries
+
+## Run Project
+
+- `npm install node-sass --save-dev`
+- `npm run compile:sass`
+- `npm install live-server`
+- `live-server`
 
 ## Live Demo
 - [My portfolio]()
