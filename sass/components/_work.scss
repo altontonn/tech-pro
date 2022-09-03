@@ -15,12 +15,10 @@
 
     &--hover {
       @include hover;
-
       top: 3rem;
 
       &-1 {
-        @include hover;
-
+        @include hover-1;
         top: 1rem;
       }
 
@@ -43,6 +41,11 @@
       outline: none;
       margin: 9px;
       text-decoration: none;
+
+      @include respond(phone) {
+        height: 3rem;
+        padding: 0 5px;
+      }
     }
 
     &--text-1 {
@@ -54,6 +57,11 @@
       height: 3.5rem;
       outline: none;
       text-decoration: none;
+
+      @include respond(phone) {
+        height: 3rem;
+        padding: 0 14px;
+      }
     }
   }
 }

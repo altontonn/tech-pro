@@ -564,12 +564,16 @@ body {
       width: 90%;
       overflow: hidden;
       transition: 0.5s;
-      opacity: 0;
+      opacity: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       top: 3rem; }
+      @media (max-width: 37.5em) {
+        .work__image--hover {
+          top: 2rem;
+          left: 1.6rem; } }
       .work__image--hover-1 {
         position: absolute;
         border-radius: 2rem;
@@ -579,12 +583,16 @@ body {
         width: 90%;
         overflow: hidden;
         transition: 0.5s;
-        opacity: 0;
+        opacity: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         top: 1rem; }
+        @media (max-width: 37.5em) {
+          .work__image--hover-1 {
+            top: 0.8rem;
+            left: 1.2rem; } }
       .work__image--hover-1:hover {
         opacity: 1; }
     .work__image:hover .work__image--hover {
@@ -599,6 +607,10 @@ body {
       outline: none;
       margin: 9px;
       text-decoration: none; }
+      @media (max-width: 37.5em) {
+        .work__image--text {
+          height: 3rem;
+          padding: 0 5px; } }
     .work__image--text-1 {
       color: #fff;
       background-color: transparent;
@@ -608,6 +620,10 @@ body {
       height: 3.5rem;
       outline: none;
       text-decoration: none; }
+      @media (max-width: 37.5em) {
+        .work__image--text-1 {
+          height: 3rem;
+          padding: 0 14px; } }
 
 .row:not(:last-child) {
   margin-bottom: 8rem; }
