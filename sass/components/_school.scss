@@ -5,10 +5,12 @@
   li {
     padding: 3rem;
     font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
   }
 
   i {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   li .la-html5 {
@@ -16,7 +18,7 @@
   }
 
   li .la-css3 {
-    color: rgb(28, 28, 248);
+    color: rgb(71, 71, 248);
   }
 
   li .la-wordpress {
@@ -35,66 +37,11 @@
     color: #ff6347;
   }
 
-  li p {
-    color: $color-white;
-    float: right;
+  li .la-bootstrap {
+    color: #4781ff;
   }
 
-  li span.bar {
-    width: 100%;
-    background-color: rgba($color-white, 0.3);
-    display: block;
-    position: relative;
-    height: 6px;
-    overflow: hidden;
-
-    &--html {
-      width: 70%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: html;
-      animation-duration: 3s;
-      animation-direction: alternate-reverse;
-    }
-
-    &--css {
-      width: 65%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: css;
-      animation-duration: 3s;
-    }
-
-    &--wordpress {
-      width: 80%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: wordpress;
-      animation-duration: 3s;
-    }
-
-    &--javascript {
-      width: 55%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: javascript;
-      animation-duration: 3s;
-    }
-
-    &--php {
-      width: 50%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: php;
-      animation-duration: 3s;
-    }
-
-    &--git {
-      width: 75%;
-      position: absolute;
-      border: 5px solid $color-primary;
-      animation-name: php;
-      animation-duration: 3s;
-    }
+  li .la-sass {
+    color: #ed64fafb;
   }
 }
