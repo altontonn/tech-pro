@@ -64,6 +64,10 @@
     &--2 {
       color: rgba($color-white, 0.9);
       font-size: 4rem;
+
+      &:hover {
+        color: aliceblue;
+      }
     }
   }
 }
