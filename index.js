@@ -1,10 +1,8 @@
 const navToggle = document.getElementById('navi-toggle');
-const navigation = document.querySelector('.navigation__nav');
-const navBackground = document.querySelector('.navigation__background');
 
-closeNav = () => {
+const closeNav = () => {
   navToggle.checked = false;
-}
+};
 
 const closeOne = document.querySelector('.closeOne');
 closeOne.addEventListener('click', closeNav);

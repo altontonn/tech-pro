@@ -71,3 +71,9 @@
     }
   }
 }
+
+@include respond(phone) {
+  .footer {
+    padding: 5rem 3rem;
+  }
+}

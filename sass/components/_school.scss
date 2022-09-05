@@ -1,12 +1,47 @@
 .school {
   width: 100%;
-  list-style: none;
+  display: flex;
+
+  &-a {
+    width: 50%;
+  }
+
+  @include respond (phone) {
+    &-a {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &-b {
+    width: 50%;
+  }
+
+  @include respond (phone) {
+    &-b {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &-1 {
+    width: 50%;
+    float: left;
+  }
 
   li {
     padding: 3rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center;
+  }
+
+  @include respond (phone) {
+    li {
+      padding: 2rem;
+    }
   }
 
   i {
@@ -43,5 +78,14 @@
 
   li .la-sass {
     color: #ed64fafb;
+  }
+}
+
+@include respond(phone) {
+  .school {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

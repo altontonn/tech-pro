@@ -118,16 +118,26 @@
 
 .skills {
   background: rgba($color-black, 0.2);
-  color: $color-white;
-  padding: 5rem 10rem;
 }
 
 .portfolio {
-  padding: 5rem 10rem 9rem 10rem;
+  padding: 5rem 10rem;
   background-color: rgba($color-white, 0.1);
+}
+
+@include respond(phone) {
+  .portfolio {
+    padding: 5rem 3rem;
+  }
 }
 
 .contact {
   padding: 5rem 10rem 6rem 10rem;
   background-color: rgba($color-white, 0.1);
+}
+
+@include respond(phone) {
+  .contact {
+    padding: 5rem 3rem;
+  }
 }

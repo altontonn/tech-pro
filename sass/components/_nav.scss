@@ -25,8 +25,8 @@
       width: 7rem;
       border-radius: 50%;
       position: fixed;
-      top: 6rem;
-      left: 6rem;
+      top: 2rem;
+      left: 1rem;
       box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
       text-align: center;
       cursor: pointer;
@@ -39,9 +39,9 @@
       width: 6rem;
       border-radius: 50%;
       position: fixed;
-      top: 6.5rem;
+      top: 2.5rem;
       z-index: 15000000;
-      left: 6.5rem;
+      left: 1rem;
       background-image: radial-gradient($color-primary-light, $color-primary);
       transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
       transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1);
@@ -124,7 +124,7 @@
     width: 100%;
     visibility: visible;
   }
-  
+
 
   &__icon {
     position: relative;

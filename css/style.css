@@ -103,7 +103,7 @@ body {
       margin: 2rem auto; } }
   @media (max-width: 37.5em) {
     .box {
-      width: 60%;
+      width: 90%;
       margin: 2rem auto;
       padding: 2rem;
       border-radius: 5px; } }
@@ -331,8 +331,8 @@ body {
         width: 7rem;
         border-radius: 50%;
         position: fixed;
-        top: 6rem;
-        left: 6rem;
+        top: 2rem;
+        left: 1rem;
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
         text-align: center;
         cursor: pointer; } }
@@ -342,9 +342,9 @@ body {
       width: 6rem;
       border-radius: 50%;
       position: fixed;
-      top: 6.5rem;
+      top: 2.5rem;
       z-index: 15000000;
-      left: 6.5rem;
+      left: 1rem;
       background-image: radial-gradient(#10cfff, #10cfffce);
       transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
       transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1); } }
@@ -448,12 +448,32 @@ body {
 
 .school {
   width: 100%;
-  list-style: none; }
+  display: flex; }
+  .school-a {
+    width: 50%; }
+  @media (max-width: 37.5em) {
+    .school-a {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; } }
+  .school-b {
+    width: 50%; }
+  @media (max-width: 37.5em) {
+    .school-b {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; } }
+  .school-1 {
+    width: 50%;
+    float: left; }
   .school li {
     padding: 3rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center; }
+  @media (max-width: 37.5em) {
+    .school li {
+      padding: 2rem; } }
   .school i {
     font-size: 6rem; }
   .school li .la-html5 {
@@ -472,6 +492,13 @@ body {
     color: #4781ff; }
   .school li .la-sass {
     color: #ed64fafb; }
+
+@media (max-width: 37.5em) {
+  .school {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; } }
 
 .side__icon {
   color: #fff;
@@ -656,6 +683,10 @@ body {
       .footer__icons--2:hover {
         color: aliceblue; }
 
+@media (max-width: 37.5em) {
+  .footer {
+    padding: 5rem 3rem; } }
+
 @media (max-width: 56.25em) {
   .content {
     width: 100%; } }
@@ -749,14 +780,20 @@ body {
   margin-bottom: 4rem; }
 
 .skills {
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  padding: 5rem 10rem; }
+  background: rgba(0, 0, 0, 0.2); }
 
 .portfolio {
-  padding: 5rem 10rem 9rem 10rem;
+  padding: 5rem 10rem;
   background-color: rgba(255, 255, 255, 0.1); }
+
+@media (max-width: 37.5em) {
+  .portfolio {
+    padding: 5rem 3rem; } }
 
 .contact {
   padding: 5rem 10rem 6rem 10rem;
   background-color: rgba(255, 255, 255, 0.1); }
+
+@media (max-width: 37.5em) {
+  .contact {
+    padding: 5rem 3rem; } }

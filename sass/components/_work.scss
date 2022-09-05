@@ -15,10 +15,12 @@
 
     &--hover {
       @include hover;
+
       top: 3rem;
 
       &-1 {
         @include hover-1;
+
         top: 1rem;
       }
 
@@ -41,7 +43,7 @@
       outline: none;
       margin: 9px;
       text-decoration: none;
-      
+
       &:hover {
         color: #fff;
         font-weight: 100;
