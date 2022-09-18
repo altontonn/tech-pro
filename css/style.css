@@ -492,6 +492,8 @@ body {
     color: #4781ff; }
   .school li .la-sass {
     color: #ed64fafb; }
+  .school li .la-react {
+    color: #10cfffce; }
 
 @media (max-width: 37.5em) {
   .school {

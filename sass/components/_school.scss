@@ -79,6 +79,10 @@
   li .la-sass {
     color: #ed64fafb;
   }
+
+  li .la-react {
+    color: $color-primary;
+  }
 }
 
 @include respond(phone) {
