@@ -32,16 +32,10 @@
   }
 
   li {
-    padding: 3rem;
+    padding: 2rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center;
-  }
-
-  @include respond (phone) {
-    li {
-      padding: 2rem;
-    }
   }
 
   i {

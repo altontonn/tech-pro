@@ -467,13 +467,10 @@ body {
     width: 50%;
     float: left; }
   .school li {
-    padding: 3rem;
+    padding: 2rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center; }
-  @media (max-width: 37.5em) {
-    .school li {
-      padding: 2rem; } }
   .school i {
     font-size: 6rem; }
   .school li .la-html5 {
