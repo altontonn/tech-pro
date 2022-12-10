@@ -450,14 +450,16 @@ body {
   width: 100%;
   display: flex; }
   .school-a {
-    width: 50%; }
+    width: 50%;
+    text-align: center; }
   @media (max-width: 37.5em) {
     .school-a {
       display: flex;
       flex-wrap: wrap;
       justify-content: center; } }
   .school-b {
-    width: 50%; }
+    width: 50%;
+    text-align: center; }
   @media (max-width: 37.5em) {
     .school-b {
       display: flex;
@@ -467,10 +469,7 @@ body {
     width: 50%;
     float: left; }
   .school li {
-    padding: 2rem;
-    font-size: 2.2rem;
-    display: flex;
-    justify-content: center; }
+    padding: 2rem; }
   .school i {
     font-size: 6rem; }
   .school li .la-html5 {

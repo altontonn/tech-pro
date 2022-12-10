@@ -4,6 +4,7 @@
 
   &-a {
     width: 50%;
+    text-align: center;
   }
 
   @include respond (phone) {
@@ -16,6 +17,7 @@
 
   &-b {
     width: 50%;
+    text-align: center;
   }
 
   @include respond (phone) {
@@ -33,9 +35,6 @@
 
   li {
     padding: 2rem;
-    font-size: 2.2rem;
-    display: flex;
-    justify-content: center;
   }
 
   i {
