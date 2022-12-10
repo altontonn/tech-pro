@@ -27,7 +27,7 @@ This is my personal portfolio to show case my recent projects and current front-
 - `live-server`
 
 ## Live Demo
-- [My portfolio](https://altontonn.github.io/tech-pro/)
+- [My portfolio]()
 
 ## 🧰 Tools
 
