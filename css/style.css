@@ -470,6 +470,9 @@ body {
     float: left; }
   .school li {
     padding: 2rem; }
+  @media (max-width: 37.5em) {
+    .school li {
+      padding: 0; } }
   .school i {
     font-size: 6rem; }
   .school li .la-html5 {

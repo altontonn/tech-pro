@@ -37,6 +37,12 @@
     padding: 2rem;
   }
 
+  @include respond (phone) {
+    li {
+      padding: 0;
+    }
+  }
+
   i {
     font-size: 6rem;
   }
