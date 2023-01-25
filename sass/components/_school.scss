@@ -5,12 +5,7 @@
   h3 {
     color: $color-primary;
     font-size: 2rem;
-  }
-
-  @include respond (phone) {
-    li {
-      padding: 0;
-    }
+    margin-bottom: 2rem;
   }
 
   li {
@@ -59,10 +54,16 @@
 }
 
 @include respond(phone) {
-  .school {
+  .school-skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
   }
 }
