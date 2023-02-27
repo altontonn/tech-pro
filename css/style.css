@@ -668,7 +668,7 @@ body {
       color: rgba(255, 255, 255, 0.9);
       font-size: 4rem; }
       .footer__icons--2:hover {
-        color: aliceblue; }
+        color: 5px 5px 5px 10px #fff; }
 
 @media (max-width: 37.5em) {
   .footer {
