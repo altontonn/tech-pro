@@ -26,44 +26,6 @@
 .margin-top-md {
   margin-top: 5rem; }
 
-@keyframes html {
-  0% {
-    width: 0%; }
-  50% {
-    width: 100%; }
-  100% {
-    width: 70%; } }
-
-@keyframes css {
-  0% {
-    width: 0%; }
-  80% {
-    width: 100%; }
-  100% {
-    width: 65%; } }
-
-@keyframes wordpress {
-  0% {
-    width: 0%; }
-  100% {
-    width: 80%; } }
-
-@keyframes javascript {
-  0% {
-    width: 0%; }
-  70% {
-    width: 100%; }
-  100% {
-    width: 55%; } }
-
-@keyframes php {
-  0% {
-    width: 0%; }
-  90% {
-    width: 100%; }
-  100% {
-    width: 50%; } }
-
 * {
   margin: 0;
   padding: 0;
