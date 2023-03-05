@@ -175,17 +175,17 @@ body {
   text-align: center;
   position: relative; }
   .info--image {
-    width: 47rem;
-    border-radius: 50%; }
+    width: 40rem;
+    border-radius: 20%; }
     @media (max-width: 75em) {
       .info--image {
         width: 39rem; } }
     @media (max-width: 56.25em) {
       .info--image {
-        width: 40rem; } }
+        width: 35rem; } }
     @media (max-width: 37.5em) {
       .info--image {
-        width: 37rem; } }
+        width: 27rem; } }
   .info--about {
     width: 100%; }
   .info--sect {

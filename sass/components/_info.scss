@@ -3,19 +3,19 @@
   position: relative;
 
   &--image {
-    width: 47rem;
-    border-radius: 50%;
+    width: 40rem;
+    border-radius: 20%;
 
     @include respond(tab-land) {
       width: 39rem;
     }
 
     @include respond(tab-port) {
-      width: 40rem;
+      width: 35rem;
     }
 
     @include respond(phone) {
-      width: 37rem;
+      width: 27rem;
     }
   }
 
