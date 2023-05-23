@@ -59,7 +59,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Ruby, rails and postgresql installed
+- `node-sass` package installed.
+- `live-server` installed
+- `Node.js` package installed
 
 ### Setup
 
@@ -69,7 +71,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/altontonn/Budget-app
+  git clone https://github.com/altontonn/tech-pro
 ```
 
 ### Install
