@@ -1,64 +1,165 @@
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# Portfolio
-<img src="img/portfolio-see.png">
+<!-- PROJECT DESCRIPTION -->
 
-> My Personal Portfolio
+# 📖 [My Portfolio] <a name="about-project"></a>
 
-**Additional description about the project and its features.**
-This is my personal portfolio to show case my recent projects and current front-end and back-end technologies.
+**[This portfolio]** shows cases of previous and current back-end and front-end technologies built in microverse and outside microverse.
 
-## Linter for html&css (Stylelint)
-- [stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
+## 🛠 Built With <a name="built-with"></a>
 
-## linter for html&css + javascript (ESlint)
-- [ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+### Tech Stack <a name="tech-stack"></a>
 
-## ⚒️ Built With
+- Flex
+- Sass
+- Bootstrap
 
-- HTML & SASS & BOOTSTRAP & FLEX & JAVASCRIPT
-- Media queries
+<!-- Features -->
 
-## Run Project
+### Key Features <a name="key-features"></a>
 
-- `npm install node-sass --save-dev`
-- `npm run compile:sass`
-- `npm install live-server`
-- `live-server`
+- **[Projects Section]** - this is to show current and previous projects done
+- **[Skills section]** - this portrays current programming languages and frameworks skilled in.
 
-## Live Demo
-- [My portfolio]()
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧰 Tools
+<!-- LIVE DEMO -->
 
-The following tools help make it easier to run this code.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- XAMPP
-- Git
+- [live-demo](https://newton-tech.netlify.app/)
 
-## 🔥 Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/altontonn/tech-pro/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+<!-- GETTING STARTED -->
 
-```bash
-git https://github.com/altontonn/tech-pro.git
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Ruby, rails and postgresql installed
+
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/altontonn/Budget-app
 ```
 
-- Once the files are downloaded or cloned on your machine, open the "Portfolio" folder in [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
-- Optionally you can simply open the index.html file located in the "personal-portfolio" folder with your preferred browser
+### Install
 
-## 🙎🏾‍♂️ Author
+Install this project with:
 
-- GitHub: [Newton Alumasa](https://github.com/altontonn)
-- Twitter: [Newton Alumasa](https://twitter.com/AlumasaNewton)
-- LinkedIn: [Newton Alumasa](https://linkedin.com/in/NewtonAlumasa)
+```sh
+    bundle install
+```
+### Usage
 
-## 👊🏾 Show your support
+To run the project, execute the following command:
 
-Give a ⭐️ if you like this project!
+- To get it running on your machine, you may open the project on your IDE and open the terminal
+- On the terminal you can run:
 
-## 📝 License
+```sh
+    rails s OR rails server
+```
+### Run tests
 
-This project is [MIT](./LICENSE) licensed.
+To run tests, run the following command:
+
+- For rubocop
+
+```sh
+  rubocop a
+```
+
+- For test
+
+```sh
+  rspec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author1 <a name="authors"></a>
+
+👤 **Author**
+
+- Github: [altontonn](https://github.com/altontonn/)
+- Twitter: [AlumasaNewton](https://twitter.com/AlumasaNewton)
+- Linkedin: [newton-alumasa](https://www.linkedin.com/in/newton-alumasa/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Set up a edit and delete button**
+- **Add basic UI**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/altontonn/Budget-app/issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project and how I managed to build it!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank...
+
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/altontonn/Budget-app/blob/dev/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
