@@ -11,7 +11,6 @@
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -104,15 +103,6 @@ To run the project, execute the following command:
 - Github: [altontonn](https://github.com/altontonn/)
 - Twitter: [AlumasaNewton](https://twitter.com/AlumasaNewton)
 - Linkedin: [newton-alumasa](https://www.linkedin.com/in/newton-alumasa/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Set up a edit and delete button**
-- **Add basic UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
