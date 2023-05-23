@@ -128,9 +128,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
-
-- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design
+I would like to thank Jonas schmedtmann
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
