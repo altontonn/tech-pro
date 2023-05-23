@@ -10,7 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -79,7 +78,8 @@ Example commands:
 Install this project with:
 
 ```sh
-    bundle install
+    live-server
+    node-sass
 ```
 ### Usage
 
@@ -89,22 +89,8 @@ To run the project, execute the following command:
 - On the terminal you can run:
 
 ```sh
-    rails s OR rails server
-```
-### Run tests
-
-To run tests, run the following command:
-
-- For rubocop
-
-```sh
-  rubocop a
-```
-
-- For test
-
-```sh
-  rspec
+    live-server
+    npm run compile:sass
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
