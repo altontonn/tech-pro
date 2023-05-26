@@ -642,9 +642,7 @@ body {
 
 .section {
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+  color: #fff; }
   .section--content {
     padding: 23rem 0;
     position: relative; }

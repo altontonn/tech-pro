@@ -7,8 +7,6 @@
 .section {
   background: rgba($color-black, 0.2);
   color: $color-white;
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 
   &--content {
     padding: 23rem 0;
