@@ -674,10 +674,7 @@ body {
     position: absolute;
     width: 50%;
     right: 0;
-    top: 0;
-    transition: all 3s; }
-    .section--image:hover {
-      transform: scale(1.1); }
+    top: 0; }
   .section--photo {
     width: 80%;
     float: right; }
