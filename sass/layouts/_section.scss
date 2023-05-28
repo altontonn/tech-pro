@@ -54,6 +54,7 @@
   &--photo {
     width: 80%;
     float: right;
+    border-radius: 50%;
 
     @include respond(tab-land) {
       border-radius: 60%;
