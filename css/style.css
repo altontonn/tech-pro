@@ -655,7 +655,7 @@ body {
   .section--heading {
     width: 65%;
     position: absolute;
-    top: 15%;
+    top: 7%;
     font-size: 2rem;
     text-align: center;
     padding: 5rem; }
@@ -675,6 +675,9 @@ body {
     width: 35%;
     right: 0;
     top: 20%; }
+    @media (max-width: 56.25em) {
+      .section--image {
+        top: 6%; } }
     @media (max-width: 37.5em) {
       .section--image {
         align-items: center;
@@ -691,7 +694,7 @@ body {
     @media (max-width: 56.25em) {
       .section--photo {
         border-radius: 60%;
-        width: 35rem; } }
+        width: 29rem; } }
     @media (max-width: 37.5em) {
       .section--photo {
         width: 15.1rem;
