@@ -651,7 +651,8 @@ body {
         padding: 20rem 0; } }
     @media (max-width: 37.5em) {
       .section--content {
-        padding: 20rem 0; } }
+        padding: 19rem 0;
+        margin-top: 7rem; } }
   .section--heading {
     width: 65%;
     position: absolute;
@@ -674,7 +675,7 @@ body {
     position: absolute;
     width: 35%;
     right: 0;
-    top: 20%; }
+    top: 8%; }
     @media (max-width: 56.25em) {
       .section--image {
         top: 6%; } }
