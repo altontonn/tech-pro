@@ -24,7 +24,7 @@
   &--heading {
     width: 65%;
     position: absolute;
-    top: 15%;
+    top: 7%;
     font-size: 2rem;
     text-align: center;
     padding: 5rem;
@@ -50,6 +50,10 @@
     right: 0;
     top: 20%;
 
+    @include respond(tab-port) {
+      top: 6%;
+    }
+
     @include respond(phone) {
       align-items: center;
       width: 100%;
@@ -69,7 +73,7 @@
 
     @include respond(tab-port) {
       border-radius: 60%;
-      width: 35rem;
+      width: 29rem;
     }
 
     @include respond(phone) {
