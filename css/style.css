@@ -675,6 +675,12 @@ body {
     width: 35%;
     right: 0;
     top: 20%; }
+    @media (max-width: 37.5em) {
+      .section--image {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center; } }
   .section--photo {
     width: 80%;
     border-radius: 50%; }
@@ -690,8 +696,7 @@ body {
       .section--photo {
         width: 15.1rem;
         position: absolute;
-        border-radius: 0;
-        left: -20%; } }
+        margin-top: 2rem; } }
 
 .section--services {
   background-color: rgba(255, 255, 255, 0.1);

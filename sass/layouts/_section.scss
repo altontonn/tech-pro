@@ -49,6 +49,13 @@
     width: 35%;
     right: 0;
     top: 20%;
+
+    @include respond(phone) {
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
 
   &--photo {
@@ -68,8 +75,7 @@
     @include respond(phone) {
       width: 15.1rem;
       position: absolute;
-      border-radius: 0;
-      left: -20%;
+      margin-top: 2rem;
     }
   }
 }
