@@ -677,7 +677,6 @@ body {
     top: 0; }
   .section--photo {
     width: 80%;
-    float: right;
     border-radius: 50%; }
     @media (max-width: 75em) {
       .section--photo {
