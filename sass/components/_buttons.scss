@@ -68,5 +68,14 @@
     padding: 1rem 1.3rem;
     font-size: 1.8rem;
     text-transform: lowercase;
+
+    &:hover {
+      transform: none;
+
+      &::after {
+        transition: none;
+        transform: none;
+      }
+    }
   }
 }
