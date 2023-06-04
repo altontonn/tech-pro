@@ -1,20 +1,8 @@
 .row {
-  //margin: 0 auto;
-  // width: $grid-width;
-
+  
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
   }
-
-  // @include clearfix;
-
-  // [class^="col-"]{
-  //     float: left;
-
-  //     &:not(:last-child) {
-  //         margin-right: $gutter-horizontal;
-  //     }
-  // }
 
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
