@@ -34,7 +34,8 @@
 html {
   font-size: 62.5%;
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
   @media (max-width: 75em) {
     html {
       font-size: 56%; } }

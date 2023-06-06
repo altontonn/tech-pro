@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
   @include respond(tab-land) {
     font-size: 56%; //1rem - 16px 9/16 = 56%     width < 900
