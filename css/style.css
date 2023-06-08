@@ -518,7 +518,7 @@ body {
       @media (max-width: 37.5em) {
         .work__image--text {
           height: 3rem;
-          padding: 0 5px; } }
+          padding: 3px 6px; } }
     .work__image--text-1 {
       color: #fff;
       background-color: transparent;
