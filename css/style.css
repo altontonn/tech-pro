@@ -539,7 +539,7 @@ body {
       @media (max-width: 37.5em) {
         .work__image--text-1 {
           height: 3rem;
-          padding: 0 14px; } }
+          padding: 3px 6px; } }
 
 .row:not(:last-child) {
   margin-bottom: 8rem; }
