@@ -230,52 +230,6 @@ body {
       .info--text {
         font-size: 1.5rem; } }
 
-.popup {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  overflow-y: scroll;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 9999;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px); }
-  .popup__image {
-    width: 100%; }
-    .popup__image--1 {
-      margin-top: 10rem; }
-  .popup__content {
-    width: 75%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.2);
-    transition: all 0.4s 0.2s; }
-  .popup__close {
-    color: red;
-    font-size: 4rem;
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    right: -5rem; }
-    .popup__close:hover {
-      color: #10cfffce; }
-  .popup:target {
-    opacity: 1;
-    visibility: visible; }
-  .popup:target .popup__content {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1); }
-
 .navigation {
   width: 20%;
   position: fixed;

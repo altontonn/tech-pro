@@ -15,9 +15,8 @@
 
     &--hover {
       @include hover;
-
       top: 3rem;
-
+      
       &-1 {
         @include hover-1;
 
