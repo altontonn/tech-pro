@@ -509,7 +509,12 @@ body {
       text-decoration: none; }
       .work__image--text:hover {
         color: #fff;
-        font-weight: 100; }
+        font-weight: 100;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #10cfff 50%);
+        background-size: 250%;
+        transition: all 0.5s; }
+        .work__image--text:hover:hover {
+          background-position: 100%; }
       @media (max-width: 37.5em) {
         .work__image--text {
           height: 3rem;
@@ -525,7 +530,12 @@ body {
       text-decoration: none; }
       .work__image--text-1:hover {
         color: #fff;
-        font-weight: 100; }
+        font-weight: 100;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #10cfff 50%);
+        background-size: 250%;
+        transition: all 0.5s; }
+        .work__image--text-1:hover:hover {
+          background-position: 100%; }
       @media (max-width: 37.5em) {
         .work__image--text-1 {
           height: 3rem;

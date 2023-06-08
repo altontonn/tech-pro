@@ -53,6 +53,13 @@
       &:hover {
         color: #fff;
         font-weight: 100;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-primary-light 50%);
+        background-size: 250%;
+        transition: all 0.5s;
+        
+        &:hover {
+          background-position: 100%;
+        }
       }
 
       @include respond(phone) {
@@ -74,6 +81,13 @@
       &:hover {
         color: #fff;
         font-weight: 100;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-primary-light 50%);
+        background-size: 250%;
+        transition: all 0.5s;
+        
+        &:hover {
+          background-position: 100%;
+        }
       }
 
       @include respond(phone) {
