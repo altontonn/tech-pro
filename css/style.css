@@ -490,6 +490,11 @@ body {
             left: 1.2rem; } }
       .work__image--hover-1:hover {
         opacity: 1; }
+      .work__image--hover-p {
+        color: #fff;
+        text-align: center;
+        width: 90%;
+        padding-bottom: 1rem; }
     .work__image:hover .work__image--hover {
       opacity: 1; }
     .work__image--text {
