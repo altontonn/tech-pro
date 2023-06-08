@@ -26,6 +26,13 @@
       &-1:hover {
         opacity: 1;
       }
+
+      &-p {
+        color: $color-white;
+        text-align: center;
+        width: 90%;
+        padding-bottom: 1rem;
+      }
     }
 
     &:hover &--hover {
