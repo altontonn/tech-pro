@@ -195,7 +195,8 @@ body {
   .info--about {
     width: 100%; }
   .info--sect {
-    width: 100%; }
+    width: 100%;
+    margin-top: -7rem; }
     .info--sect__heading {
       padding-top: 5rem;
       font-weight: 700;
