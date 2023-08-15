@@ -94,15 +94,15 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
-## 👥 Author1 <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Author**
 
-- Github: [altontonn](https://github.com/altontonn/)
-- Twitter: [AlumasaNewton](https://twitter.com/AlumasaNewton)
-- Linkedin: [newton-alumasa](https://www.linkedin.com/in/newton-alumasa/)
+- Github: [Newton Alumasa](https://github.com/altontonn/)
+- Twitter: [Newton Alumasa](https://twitter.com/AlumasaNewton)
+- Linkedin: [Newton Alumasa](https://www.linkedin.com/in/newton-alumasa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
