@@ -128,7 +128,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Jonas schmedtmann
+I would like to thank Jonas schmedtmann for his guidance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
