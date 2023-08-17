@@ -43,7 +43,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live-demo](https://newton-tech.netlify.app/)
+- [live-demo](https://newtontech.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
