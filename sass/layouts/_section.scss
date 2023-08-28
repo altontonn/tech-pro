@@ -23,7 +23,7 @@
   }
 
   &--heading {
-    width: 65%;
+    width: 100%;
     position: absolute;
     top: 7%;
     font-size: 2rem;
@@ -45,44 +45,44 @@
     position: relative;
   }
 
-  &--image {
-    position: absolute;
-    width: 35%;
-    right: 0;
-    top: 8%;
+  // &--image {
+  //   position: absolute;
+  //   width: 35%;
+  //   right: 0;
+  //   top: 8%;
 
-    @include respond(tab-port) {
-      top: 6%;
-    }
+  //   @include respond(tab-port) {
+  //     top: 6%;
+  //   }
 
-    @include respond(phone) {
-      align-items: center;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-  }
+  //   @include respond(phone) {
+  //     align-items: center;
+  //     width: 100%;
+  //     display: flex;
+  //     justify-content: center;
+  //   }
+  // }
 
-  &--photo {
-    width: 80%;
-    border-radius: 50%;
+  // &--photo {
+  //   width: 80%;
+  //   border-radius: 50%;
 
-    @include respond(tab-land) {
-      border-radius: 60%;
-      width: 34rem;
-    }
+  //   @include respond(tab-land) {
+  //     border-radius: 60%;
+  //     width: 34rem;
+  //   }
 
-    @include respond(tab-port) {
-      border-radius: 60%;
-      width: 29rem;
-    }
+  //   @include respond(tab-port) {
+  //     border-radius: 60%;
+  //     width: 29rem;
+  //   }
 
-    @include respond(phone) {
-      width: 15.1rem;
-      position: absolute;
-      margin-top: 2rem;
-    }
-  }
+  //   @include respond(phone) {
+  //     width: 15.1rem;
+  //     position: absolute;
+  //     margin-top: 2rem;
+  //   }
+  // }
 }
 
 .section--services {
