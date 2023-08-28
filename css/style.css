@@ -465,7 +465,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      top: 3rem; }
+      top: 1rem; }
       @media (max-width: 37.5em) {
         .work__image--hover {
           top: 2rem;
