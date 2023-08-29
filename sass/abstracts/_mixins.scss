@@ -57,7 +57,7 @@
   background-color: rgba($color-black, 0.7);
   height: 90%;
   width: calc(100% - 28px);
-  overflow: hidden;
+  // overflow: hidden;
   transition: 0.5s;
   opacity: 0;
   display: flex;
@@ -78,7 +78,7 @@
   background-color: rgba($color-black, 0.7);
   height: 90%;
   width: 90%;
-  overflow: hidden;
+  // overflow: hidden;
   transition: 0.5s;
   opacity: 0;
   display: flex;
