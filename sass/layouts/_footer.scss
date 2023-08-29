@@ -13,6 +13,8 @@
   }
 
   &__one h2 {
+    text-align: center;
+    
     @include respond(phone) {
       text-decoration: underline;
       font-size: 2.5rem;
@@ -21,41 +23,10 @@
     }
   }
 
-  &__clyde {
-    list-style: none;
-
-    &--links {
-      display: block;
-
-      &::before {
-        content: "\00BB";
-        font-size: 3rem;
-      }
-    }
-
-    &--anchor {
-      text-decoration: none;
-      color: rgba($color-primary, 0.9);
-      font-size: 2rem;
-    }
-  }
-
-  &__call {
-    list-style: none;
-
-    &--1 {
-      display: block;
-      padding: 0 0 2rem 0;
-    }
-
-    &--2 {
-      color: $color-primary;
-      font-size: 3rem;
-    }
-  }
-
   &__icons {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
 
     &--1 {
       display: inline-block;
