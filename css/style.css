@@ -33,9 +33,7 @@
 
 html {
   font-size: 62.5%;
-  max-width: 100%;
-  overflow-x: hidden;
-  scroll-behavior: smooth; }
+  max-width: 100%; }
   @media (max-width: 75em) {
     html {
       font-size: 56%; } }
@@ -51,8 +49,7 @@ body {
   font-size: 1.6rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/dark-wood-texture.jpg);
   background-attachment: fixed;
-  max-width: 100%;
-  overflow-x: hidden; }
+  max-width: 100%; }
 
 .box {
   background-color: rgba(255, 255, 255, 0.3);
