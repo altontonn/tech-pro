@@ -584,10 +584,8 @@ body {
     text-align: center; }
     @media (max-width: 37.5em) {
       .footer__one h2 {
-        text-decoration: underline;
         font-size: 2.5rem;
-        margin-top: 2rem;
-        font-weight: 100; } }
+        margin-top: 2rem; } }
   .footer__icons {
     list-style: none;
     display: flex;

@@ -16,10 +16,8 @@
     text-align: center;
     
     @include respond(phone) {
-      text-decoration: underline;
       font-size: 2.5rem;
       margin-top: 2rem;
-      font-weight: 100;
     }
   }
 
