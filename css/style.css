@@ -132,6 +132,10 @@ body {
       font-size: 1.5rem;
       display: block;
       margin-top: 5rem; }
+      .btn--classic__load--less {
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 5rem; }
   .btn--about {
     padding: 1rem 1.3rem;
     font-size: 1.8rem;
@@ -468,7 +472,7 @@ body {
       top: 1rem; }
       @media (max-width: 37.5em) {
         .work__image--hover {
-          top: 2rem;
+          top: 1rem;
           left: 1.6rem; } }
       .work__image--hover-1 {
         position: absolute;
@@ -496,6 +500,9 @@ body {
         text-align: center;
         width: 90%;
         padding-bottom: 1rem; }
+        @media (max-width: 37.5em) {
+          .work__image--hover-p {
+            font-size: smaller; } }
     .work__image:hover .work__image--hover {
       opacity: 1; }
     .work__image--text {
