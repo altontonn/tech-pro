@@ -98,7 +98,9 @@
 
 .contact {
   padding: 5rem 10rem 6rem 10rem;
-  background-color: rgba($color-white, 0.1);
+  background: rgba($color-black, 0.2);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 @include respond(phone) {
