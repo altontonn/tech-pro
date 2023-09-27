@@ -421,7 +421,7 @@ body {
   flex-direction: column; }
 
 .school-text {
-  color: #fff; }
+  color: #fff !important; }
 
 .side__icon {
   color: #fff;
