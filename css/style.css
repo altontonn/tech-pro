@@ -381,7 +381,9 @@ body {
     font-size: 2rem;
     margin-bottom: 2rem; }
   .school li {
-    padding: 1.4rem; }
+    padding: 1.4rem;
+    color: #fff;
+    list-style: none; }
   .school li i {
     font-size: 6rem; }
   .school li .la-html5 {
@@ -413,6 +415,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center; } }
+
+.school-tech {
+  display: flex;
+  flex-direction: column; }
+
+.school-text {
+  color: #fff; }
 
 .side__icon {
   color: #fff;
