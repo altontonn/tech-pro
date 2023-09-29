@@ -1,4 +1,7 @@
 .row {
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
 
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
