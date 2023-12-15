@@ -2,7 +2,7 @@
   width: 20%;
   position: fixed;
   background-color: rgba($color-white, 0.1);
-  top: 15%;
+  top: 7%;
   border-radius: 10px;
 
   @include respond(tab-port) {
@@ -86,6 +86,7 @@
     display: block;
     font-size: 2rem;
     padding: 2rem;
+    padding-left: 0;
 
     &:hover {
       font-weight: 100;
