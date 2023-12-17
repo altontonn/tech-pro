@@ -15,8 +15,9 @@
 
     &--hover {
       @include hover;
+
       top: 1rem;
-      
+
       &-1 {
         @include hover-1;
 
@@ -60,7 +61,7 @@
         background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-primary-light 50%);
         background-size: 250%;
         transition: all 0.5s;
-        
+
         &:hover {
           background-position: 100%;
         }
@@ -88,7 +89,7 @@
         background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-primary-light 50%);
         background-size: 250%;
         transition: all 0.5s;
-        
+
         &:hover {
           background-position: 100%;
         }
