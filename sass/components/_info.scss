@@ -26,6 +26,14 @@
   &--sect {
     width: 100%;
     margin-top: -7rem;
+    
+    @include respond(tab-port) {
+      margin-top: 0;
+    }
+    
+    @include respond(phone) {
+      margin-top: 0;
+    }
 
     &__heading {
       padding-top: 5rem;
