@@ -32,6 +32,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "postcss": "8.4.31"
   }
 }
