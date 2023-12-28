@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "live-server": "^1.2.2",
-    "postcss": "8.4.31"
+    "postcss": "^8.4.32"
   }
 }
