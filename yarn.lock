@@ -634,7 +634,7 @@ autoprefixer@^9.8.6:
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     picocolors "^0.2.1"
-    postcss "^7.0.32"
+    postcss "^8.4.31"
     postcss-value-parser "^4.1.0"
 
 available-typed-arrays@^1.0.5:
@@ -3476,7 +3476,7 @@ postcss-safe-parser@^4.0.2:
   resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-4.0.2.tgz#a6d4e48f0f37d9f7c11b2a581bf00f8ba4870b96"
   integrity sha512-Uw6ekxSWNLCPesSv/cmqf2bY/77z11O7jZGPax3ycZMFU/oi2DMH9i89AdHc1tRwFg/arFoEwX0IS3LCUxJh1g==
   dependencies:
-    postcss "^7.0.26"
+    postcss "^8.4.31"
 
 postcss-sass@^0.4.4:
   version "0.4.4"
@@ -3484,14 +3484,14 @@ postcss-sass@^0.4.4:
   integrity sha512-BYxnVYx4mQooOhr+zer0qWbSPYnarAy8ZT7hAQtbxtgVf8gy+LSLT/hHGe35h14/pZDTw1DsxdbrwxBN++H+fg==
   dependencies:
     gonzales-pe "^4.3.0"
-    postcss "^7.0.21"
+    postcss "^8.4.31"
 
 postcss-scss@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-2.1.1.tgz#ec3a75fa29a55e016b90bf3269026c53c1d2b383"
   integrity sha512-jQmGnj0hSGLd9RscFw9LyuSVAa5Bl1/KBPqG1NQw9w8ND55nY4ZEsdlVuYJvLPpV+y0nwTV5v/4rHPzZRihQbA==
   dependencies:
-    postcss "^7.0.6"
+    postcss "^8.4.31"
 
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.5:
   version "6.0.14"
@@ -3519,14 +3519,6 @@ postcss@8.4.31:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
-
-postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.6:
-  version "7.0.39"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
-  integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
-  dependencies:
-    picocolors "^0.2.1"
-    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -4287,7 +4279,7 @@ stylelint@^13.13.1:
     meow "^9.0.0"
     micromatch "^4.0.4"
     normalize-selector "^0.2.0"
-    postcss "^7.0.35"
+    postcss "^8.4.31"
     postcss-html "^0.36.0"
     postcss-less "^3.1.4"
     postcss-media-query-parser "^0.2.3"
@@ -4315,7 +4307,7 @@ sugarss@^2.0.0:
   resolved "https://registry.yarnpkg.com/sugarss/-/sugarss-2.0.0.tgz#ddd76e0124b297d40bf3cca31c8b22ecb43bc61d"
   integrity sha512-WfxjozUk0UVA4jm+U1d736AUpzSrNsQcIbyOkoE364GrtWmIrFdk5lksEupgWMD4VaT/0kVx1dobpiDumSgmJQ==
   dependencies:
-    postcss "^7.0.2"
+    postcss "^8.4.31"
 
 supports-color@^5.3.0:
   version "5.5.0"
