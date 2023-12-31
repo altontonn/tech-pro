@@ -449,17 +449,17 @@ body {
     top: -2.2rem;
     z-index: -44; }
 
-.side__icon h4 {
+.side__icon h3 {
   display: inline-block;
   padding-left: 4rem;
   font-weight: 700;
   top: 1rem;
   font-size: 1.7rem; }
   @media (max-width: 56.25em) {
-    .side__icon h4 {
+    .side__icon h3 {
       font-size: 1.6rem; } }
   @media (max-width: 37.5em) {
-    .side__icon h4 {
+    .side__icon h3 {
       font-size: 1.5rem; } }
 
 .work {
