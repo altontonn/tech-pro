@@ -70,6 +70,12 @@
     }
   }
 
+  &--div {
+    background-color: rgba($color-white, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
   &--text {
     color: $color-white;
     line-height: 2.8rem;
