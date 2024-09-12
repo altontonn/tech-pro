@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "build": "mkdir -p build && bundle exec jekyll build -d build && npm run compile:sass"
+    "build": "mkdir -p build && bundle exec jekyll build -d build"
   },
   "repository": {
     "type": "git",
