@@ -269,10 +269,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-theme-cayman
-
-RUBY VERSION
-   ruby 3.2.2p53
+  nokogiri (~> 1.16)
 
 BUNDLED WITH
    2.4.15
