@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"
+
+[context.production.environment]
+  RUBY_VERSION = "3.2.2"
