@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
-     "build": "mkdir -p build && cp -r assets/* build/"
+     "build": "mkdir -p build && cp -r assets/. build/"
   },
   "repository": {
     "type": "git",
