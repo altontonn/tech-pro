@@ -43,3 +43,55 @@
     transform: translateY(-4rem);
   }
 }
+
+/* Email Form Messages
+------------------------------ */
+.email-form .error-message {
+  display: none;
+  margin-bottom: 24px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  background: #df1529;
+}
+
+.email-form .sent-message {
+  display: none;
+  margin-bottom: 24px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  background: #059652;
+}
+
+.email-form .loading {
+  display: none;
+  margin-bottom: 24px;
+  padding: 15px;
+  text-align: center;
+  background: var(--surface-color);
+}
+
+.email-form .loading::before {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  border-radius: 50%;
+  animation: php-email-form-loading 1s linear infinite;
+  content: "";
+}
+
+@keyframes email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

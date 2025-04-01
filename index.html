@@ -75,9 +75,6 @@
               development lifecycle, and end to end project management from development to
               delivery.
             </div>
-            <!-- <div class="section--image">
-              <img src="img/newton1.jpg" class="section--photo" alt="newton" />
-            </div> -->
           </div>
         </section>
 
@@ -245,10 +242,18 @@
                   <div class="info--div">
 
                     <p class="info--text">
-                      <p class="text-white">I'm Newton Alumasa, a dedicated full-stack developer specializing in crafting dynamic websites and customized software solutions for local businesses. Over two years, I've honed my skills in WordPress development, culminating in the creation of a comprehensive clinic website that showcases their extensive range of services.</p>
-                      <p class="text-white">
-                        My expertise spans both frontend and backend technologies, encompassing Webpack, JavaScript, Rails, and Postgres. I excel in utilizing Git for efficient collaboration and version control, ensuring smooth project management. Moreover, I possess a strong foundation in unit testing principles and am well-versed in behavior-driven testing methods. Additionally, I navigate the complexities of continuous integration and deployment with ease, guaranteeing reliable and seamless software delivery.
-                      </p>
+                    <p class="text-white">I'm Newton Alumasa, a dedicated full-stack developer specializing in crafting
+                      dynamic websites and customized software solutions for local businesses. Over two years, I've
+                      honed my skills in WordPress development, culminating in the creation of a comprehensive clinic
+                      website that showcases their extensive range of services.</p>
+                    <p class="text-white">
+                      My expertise spans both frontend and backend technologies, encompassing Webpack, JavaScript,
+                      Rails, and Postgres. I excel in utilizing Git for efficient collaboration and version control,
+                      ensuring smooth project management. Moreover, I possess a strong foundation in unit testing
+                      principles and am well-versed in behavior-driven testing methods. Additionally, I navigate the
+                      complexities of continuous integration and deployment with ease, guaranteeing reliable and
+                      seamless software delivery.
+                    </p>
                     </p>
                   </div>
                   <a href="doc/Newton_Alumasa_Resume.pdf" download class="btn btn--classic mt-3">My Resume <i
@@ -473,7 +478,7 @@
               <h2 class="text-center" style="color: red"></h2>
               <h2 class="text-center" style="color: #10cfff"></h2>
               <h2 class="text-center" style="color: red"></h2>
-              <form action="https://formspree.io/f/xqkjpgnz" method="POST">
+              <form action="https://formspree.io/f/xqkjpgnz" method="POST" class="email-form">
                 <div class="form__group">
                   <input type="text" class="form__input" name="first_name" placeholder="First Name" id="name"
                     required />
@@ -501,6 +506,13 @@
                     minlength="10" required rows="4" cols="50"></textarea>
                   <label for="message" class="form__label">Message</label>
                 </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+                </div>
+
                 <input value="Submit" type="submit" name="submit" class="btn btn--classic btn--classic-1" />
               </form>
             </div>

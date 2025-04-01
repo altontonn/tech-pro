@@ -27,7 +27,7 @@ $('.btn--classic__load').on('click', () => {
   if (hiddenLoads.length > 0) {
     hiddenLoads.slice(0, 2).slideDown();
 
-    // If all items are shown, hide the "See More" button
+    // If all items are shown, hide the 'See More' button
     if (hiddenLoads.length <= 2) {
       $('.btn--classic__load').fadeOut('slow');
       $('.btn--classic__load--less').show();
@@ -45,4 +45,47 @@ $('.btn--classic__load--less').on('click', (event) => {
     $('.btn--classic__load').fadeIn('slow');
     $('.btn--classic__load--less').hide();
   }
+});
+
+/** Form submission */
+
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('.email-form');
+  const sentMessage = document.querySelector('.sent-message');
+  const errorMessage = document.querySelector('.error-message');
+  const loadingMessage = document.querySelector('.loading');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    loadingMessage.style.display = 'block';
+    sentMessage.style.display = 'none';
+    errorMessage.style.display = 'none';
+
+    const formData = new FormData(form);
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+      if (response.ok) {
+        form.reset();
+        sentMessage.style.display = 'block';
+        // Hide success message after 3 secs
+        setTimeout(() => {
+          sentMessage.style.display = 'none';
+        }, 3000);
+      } else {
+        errorMessage.innerText = 'Something went wrong. Please try again.';
+        errorMessage.style.display = 'block';
+      }
+    } catch (error) {
+      errorMessage.innerText = 'An error occurred. Please check your internet connection.';
+      errorMessage.style.display = 'block';
+    } finally {
+      loadingMessage.style.display = 'none'; // Hide loading text
+    }
+  });
 });
