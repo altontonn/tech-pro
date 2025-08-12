@@ -15,6 +15,7 @@
     }
 
     @include respond(phone) {
+      margin-bottom: 1rem;
       width: 27rem;
     }
   }
@@ -42,8 +43,20 @@
       position: relative;
       color: $color-primary;
 
+      @include respond(tab-land) {
+        visibility: hidden;
+      }
+
       @include respond(tab-port) {
-        padding: 3rem;
+        display: none;
+      }
+
+      @include respond(tab-port) {
+        display: none;
+      }
+
+      @include respond(phone) {
+        display: none;
       }
     }
 
@@ -66,7 +79,19 @@
     &__job-title {
       font-size: 2.5rem;
       color: $color-primary;
-      font-family: 'emoji', sans-serif;
+      font-family: "emoji", sans-serif;
+
+      @include respond(tab-land) {
+        display: none;
+      }
+
+      @include respond(tab-port) {
+        display: none;
+      }
+
+      @include respond(phone) {
+        display: none;
+      }
     }
   }
 
