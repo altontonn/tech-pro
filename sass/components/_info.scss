@@ -10,13 +10,19 @@
       width: 39rem;
     }
 
+    @include respond(tab-port-1) {
+      width: 35rem;
+      margin-top: 6rem;
+    }
+
     @include respond(tab-port) {
       width: 35rem;
+      margin: 1rem 0;
     }
 
     @include respond(phone) {
       margin-bottom: 1rem;
-      width: 27rem;
+      width: 33rem;
     }
   }
 

@@ -232,13 +232,18 @@ body {
     @media (max-width: 75em) {
       .info--image {
         width: 39rem; } }
+    @media (max-width: 65em) {
+      .info--image {
+        width: 35rem;
+        margin-top: 6rem; } }
     @media (max-width: 56.25em) {
       .info--image {
-        width: 35rem; } }
+        width: 35rem;
+        margin: 1rem 0; } }
     @media (max-width: 37.5em) {
       .info--image {
         margin-bottom: 1rem;
-        width: 27rem; } }
+        width: 33rem; } }
   .info--about {
     width: 100%; }
   .info--sect {
