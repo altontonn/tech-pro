@@ -3,21 +3,20 @@
   position: relative;
 
   &--image {
-    width: 40rem;
+    width: 35rem;
     border-radius: 20%;
 
     @include respond(tab-land) {
-      width: 39rem;
+      width: 32rem;
     }
 
     @include respond(tab-port-1) {
-      width: 35rem;
-      margin-top: 6rem;
+      width: 32rem;
     }
 
     @include respond(tab-port) {
-      width: 35rem;
-      margin: 1rem 0;
+      width: 30rem;
+      margin-bottom: 1rem;
     }
 
     @include respond(phone) {
